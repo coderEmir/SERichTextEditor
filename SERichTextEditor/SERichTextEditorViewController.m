@@ -15,12 +15,14 @@
 @property (nonatomic ,strong) NSArray *textFontImgNames;
 
 @property (nonatomic ,strong) UIView *textFontView;
-
+// TODO: 待完成字号气泡、无序列表气泡、颜色气泡
 @property (nonatomic ,strong) UIView *fontSizeView;
 
 @property (nonatomic ,strong) UIView *fontSizeNames;
 
 @property (nonatomic ,strong) UIView *alignView;
+
+@property (nonatomic ,strong) UIView *colorView;
 @end
 
 @implementation SERichTextEditorViewController
