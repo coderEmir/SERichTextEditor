@@ -43,6 +43,8 @@ static NSInteger const ColorTag = 4050;
 @property (nonatomic ,strong) NSArray *colorImgNames;
 @property (nonatomic ,strong) UIButton *oldColorBtn;
 
+@property (nonatomic ,copy) NSString *currentTextState;
+
 @end
 
 @implementation SERichTextEditorViewController
@@ -51,7 +53,7 @@ static NSInteger const ColorTag = 4050;
 {
     [super viewDidLoad];
     
-    NSString *html = @"This editor is using";
+    NSString *html = @"Just to test the text editing function";
     [self setHTML:html];
     self.enabledToolbarItems = @[ZSSRichTextEditorToolbarNone];
     
@@ -63,10 +65,9 @@ static NSInteger const ColorTag = 4050;
 {
     if ([item.label containsString:@"font"])
     {
-//        NSString *trigger = @"zss_editor.isCommandEnabled('bold');";
-//        [self.editorView evaluateJavaScript:trigger completionHandler:^(NSString *result, NSError *error) {
-//            NSLog(@"result----%@",result);
-//        }];
+        [self resetFont:0 hadFont:[self.currentTextState containsString:@"bold"]];
+        [self resetFont:1 hadFont:[self.currentTextState containsString:@"italic"]];
+        [self resetFont:2 hadFont:[self.currentTextState containsString:@"underline"]];
         [self.functionPopover show:self.textFontView fromView:[item valueForKey:@"view"]];
     }
     else if ([item.label containsString:@"changeFontSize"])
@@ -164,11 +165,7 @@ static NSInteger const ColorTag = 4050;
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
 {
     [super webView:webView decidePolicyForNavigationAction:navigationAction decisionHandler:decisionHandler];
-    NSString *urlString = [navigationAction.request.URL absoluteString];
-    
-    [self resetFont:0 hadFont:[urlString containsString:@"bold"]];
-    [self resetFont:1 hadFont:[urlString containsString:@"italic"]];
-    [self resetFont:2 hadFont:[urlString containsString:@"underline"]];
+    self.currentTextState = [navigationAction.request.URL absoluteString];
 }
 
 - (void)resetFont:(NSInteger)index hadFont:(BOOL)hadFont
