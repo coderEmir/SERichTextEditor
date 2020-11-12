@@ -114,6 +114,8 @@ typedef void(^CustomButtonEventBlock)(UIBarButtonItem *);
  */
 @property (nonatomic, strong) UIColor *toolbarItemSelectedTintColor;
 
+
+@property (nonatomic, strong, readonly) WKWebView *editorView;
 /**
  *  Sets the HTML for the entire editor
  *
@@ -239,4 +241,5 @@ typedef void(^CustomButtonEventBlock)(UIBarButtonItem *);
 - (void)setCSS:(NSString *)css;
 
 - (void)setCustomStyleWithFunctionName:(NSString *)functionName;
+
 @end

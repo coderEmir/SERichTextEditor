@@ -1445,12 +1445,41 @@ static CGFloat kDefaultScale = 0.5;
 - (void)setSelectedColor:(UIColor*)color tag:(int)tag {
     
     NSString *hex = [NSString stringWithFormat:@"#%06x",HexColorFromUIColor(color)];
+    [self setSelectedColorStr:hex tag:tag];
+}
+
+- (void)setSelectedColorStr:(NSString*)color tag:(int)tag {
+    
+    [self.editorView evaluateJavaScript:@"zss_editor.prepareInsert();" completionHandler:^(NSString *result, NSError *error) {
+     
+    }];
     NSString *trigger;
     if (tag == 1) {
-        trigger = [NSString stringWithFormat:@"zss_editor.setTextColor(\"%@\");", hex];
+        trigger = [NSString stringWithFormat:@"zss_editor.setTextColor(\"%@\");", color];
     } else if (tag == 2) {
-        trigger = [NSString stringWithFormat:@"zss_editor.setBackgroundColor(\"%@\");", hex];
+        trigger = [NSString stringWithFormat:@"zss_editor.setBackgroundColor(\"%@\");", color];
     }
+    
+    [self.editorView evaluateJavaScript:trigger completionHandler:^(NSString *result, NSError *error) {
+     
+    }];
+}
+
+- (void)fontSizeNomal {
+    [self setFontSizeWithType:@"3"];
+}
+
+- (void)fontSizeLarge {
+    [self setFontSizeWithType:@"5"];
+}
+
+- (void)fontSizeSmall {
+    [self setFontSizeWithType:@"2"];
+}
+
+- (void)setFontSizeWithType:(NSString *)name
+{
+    NSString *trigger = [NSString stringWithFormat:@"zss_editor.setFontSize(\"%@\");", name];
     [self.editorView evaluateJavaScript:trigger completionHandler:^(NSString *result, NSError *error) {
      
     }];
