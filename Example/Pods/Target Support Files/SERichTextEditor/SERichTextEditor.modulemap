@@ -1,0 +1,6 @@
+framework module SERichTextEditor {
+  umbrella header "SERichTextEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SERichTextEditor (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SERichTextEditor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SERichTextEditor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SERichTextEditor: b3002460bb254a5865d09dff50db6b393747e645
+
+PODFILE CHECKSUM: d852b974b4238a117cf11c2b2580560aa7ca55fe
+
+COCOAPODS: 1.9.1

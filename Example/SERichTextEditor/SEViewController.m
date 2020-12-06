@@ -7,7 +7,7 @@
 //
 
 #import "SEViewController.h"
-
+#import "SERichTextEditorViewController.h"
 @interface SEViewController ()
 
 @end
@@ -17,13 +17,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.whiteColor;
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    btn.frame = CGRectMake(100, 100, 50, 50);
+    [btn addTarget:self action:@selector(presentView) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)presentView {
+    
+    SERichTextEditorViewController *controller = [[SERichTextEditorViewController alloc] init];
+    __weak typeof(controller) weakController = controller;
+    [controller historyHTMLRecord:@"测试文本" contentBlock:^(NSString * _Nullable htmlContent) {
+        NSLog(@"%@---htmlContent",htmlContent);
+        [weakController dismissViewControllerAnimated:YES completion:nil];
+    }];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    
+    controller.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 @end

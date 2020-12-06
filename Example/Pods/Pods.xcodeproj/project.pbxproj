@@ -1,0 +1,1845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		006616338AFAF629F2C760B3906D5BFD /* align@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C54D7B478701A6CF4BB793E4258030C /* align@2x.png */; };
+		02CE91D84A1757DA42B6392896A27833 /* ZSSundo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0864EC5531CC975D3538B0480B9E95 /* ZSSundo@2x.png */; };
+		033F7F32F10ABF05DD7FFF379094D4B7 /* ZSSFontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A355A1B02A2635F8B16353796D0C8A94 /* ZSSFontsViewController.m */; };
+		036DF7008DD135BAB2FE0E151602B5C7 /* ZSSredo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2102885274724492AF5939C5BE9A3E3F /* ZSSredo@2x.png */; };
+		04C7051CA32381008308D8E5E7D19D00 /* HRCgUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D770B4D33B0F7E669626928C79BDC3 /* HRCgUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D75D331CFC44E902472A0876884550 /* ZSSh4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FA9549648024B05ECC32C4F1E18F33 /* ZSSh4@2x.png */; };
+		086A37AB9D21CB39F4E2182629664F7D /* eea849Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D988F30E2E363D81906CA7355AD64B9D /* eea849Selected@2x.png */; };
+		0B3C241448D9D20A5E1F8C7A2FA3464C /* fontSizeSmallSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA73F94DE74C6F3E2643B61BAEC59ED0 /* fontSizeSmallSelected@2x.png */; };
+		0B9384E1CEB6FB7118730FC79A1652A9 /* ASPopoverOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F313E9B067C3C8D050033A4D419883E7 /* ASPopoverOption.m */; };
+		0C72B2C2DB06602CDD5014D1021389C3 /* ZSSpicker.png in Resources */ = {isa = PBXBuildFile; fileRef = F904871227F4DF4EFBC5EF28E0A8A95B /* ZSSpicker.png */; };
+		1010F42D96CFB03A157ED478EFE33710 /* ZSSparagraph.png in Resources */ = {isa = PBXBuildFile; fileRef = 644DB722C2914FD63FC251EEB8EF78A1 /* ZSSparagraph.png */; };
+		1141BB717D476629F235AE14B0D36856 /* fontSizeLargeSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342567E336DA4D2672F09C1F1671EBAB /* fontSizeLargeSelected@2x.png */; };
+		11C158B88C7CA5868DCCE406A861F65B /* alignRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D69CE858FDF2AABF292841552DA3B5F /* alignRight@2x.png */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		157CBEFEE67FCE540BBB2FE87D04141A /* ZSShorizontalrule.png in Resources */ = {isa = PBXBuildFile; fileRef = 53188DFF3E75AF83AD39AC8BB58EF444 /* ZSShorizontalrule.png */; };
+		15D52DD1A1069DF38CFE6E67C71FFE6D /* ZSShorizontalrule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9EEE564827EDE084E46CA7FDC10B004 /* ZSShorizontalrule@2x.png */; };
+		16242E0D30196314E91EC5125BAC6BDC /* ASPopoverOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 3449457A0EDAC05946556BE984D236D1 /* ASPopoverOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168822626F99E440F3C585ADD6547BF3 /* ZSSh2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C544107FDFE2F59823AD1910C36B2D /* ZSSh2@2x.png */; };
+		171F0E6D6A6D8B90AA4D4EEA06D30605 /* ZSSh5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD121C93245791B88B7904763EBEBB5 /* ZSSh5.png */; };
+		18F1C574640C86B4B2B5A063DB450D3F /* ZSSpicker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A166F7EBABBAE8BB00F484F3186125E /* ZSSpicker@2x.png */; };
+		1A4CF14BA74EAA153E10DD981D485641 /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 196010C38945A6A5E272F5439DAECEC4 /* HRColorUtil.m */; };
+		21527CD20B703F421E546CDBCEE62AD5 /* 4caf50Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D4BECEEE096F2068438E7B2A90E46F /* 4caf50Selected@2x.png */; };
+		233A588201BA9A394526C77A61DC5B47 /* changeFontSize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 620E499D3A550570BC8DB2576ED473A3 /* changeFontSize@2x.png */; };
+		26ECBDBA80CBB12A438962A8F8EC2D4C /* CYRTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2651EDE26181A40DC9A40F69E0A32C97 /* CYRTextStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7CE1E3042F68B31CE1BD220D02A1DF /* ZSSforcejustify.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EDC7D02E6CD52BBA99B3100829E046 /* ZSSforcejustify.png */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2EC21C5EF8AF1E8114459ED795CA1A35 /* ZSSunorderedlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6982F587B29D067F1DE724ECE0DC0FA7 /* ZSSunorderedlist.png */; };
+		2ECCF6C94AE82A3593AD215AD5D4CD92 /* HRBrightnessCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8078A1B36A736B1F2799730B3481CCDB /* HRBrightnessCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F814ADB0F6845FDF38EEB18FA0DD3E9 /* ZSSh3.png in Resources */ = {isa = PBXBuildFile; fileRef = 863A966125A14541E021E71278D424BC /* ZSSh3.png */; };
+		3019825B34758F9873169031795D1D5D /* ZSSitalic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE608AE0107F99BF990F325309DA1E7A /* ZSSitalic@2x.png */; };
+		30459F9C813F5F20ED605D15750C760D /* SERichTextEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260CDCB43BC8F1AEFBD0BB5122D0488 /* SERichTextEditorViewController.m */; };
+		30B7021C89F3B588B92EFE5F737DCF21 /* 45c3e9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 383188C8B5FB61B61A0C4E50619BF34F /* 45c3e9@2x.png */; };
+		3126C789D256D4F8FBCF2B107F5C5698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		3187F55A6113B3A77C0BBDF524672F97 /* ZSSkeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 055B35770CB2FBD5740E6622F245FC10 /* ZSSkeyboard.png */; };
+		34D8D5C54286C250AD1F30CE847C7D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		356BDCEC23191A5234270D38560AB0B8 /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB09A1ED3AE68C5B6F4EC957A41C523 /* CYRTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A039E2D71BCAA1ED5A2BEEA4FB9D06 /* ZSSsubscript@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE331F3DC968833C442D45F30897763 /* ZSSsubscript@2x.png */; };
+		36AA8D08EBD86C41077F1FD654D747D5 /* setOrderedList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3048993DACC06AA70CDEF50FF32F35 /* setOrderedList@2x.png */; };
+		391AB7FFE3F8820962D43A895D888F5E /* HRColorCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B95EC1FB91A36336F38C97E0D8CE8A8 /* HRColorCursor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B71EAE9054074D2C25629364EDE4022 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E157A17F8AF2942F97CBF323D314917 /* HRColorCursor.m */; };
+		3B98BC6B77F38BAE6BAB8F21CD0FE44B /* 252120Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA060FB6CC55F285998F4711A869B2C /* 252120Selected@2x.png */; };
+		3C425EF680F6838415CF9A7001B2EA6F /* alignLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C57ED0D19F97BCFFEBF8ECB206F2DC2C /* alignLeft@2x.png */; };
+		3D29C2FD792A12B590EA527D39034346 /* ZSSbold.png in Resources */ = {isa = PBXBuildFile; fileRef = 457436A9194A7738AC54600339D346F6 /* ZSSbold.png */; };
+		3E67B605EEAA51D9530C1EB180336947 /* ff5353Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8608C7EF3ABC351EEB60B108031791AE /* ff5353Selected@2x.png */; };
+		3ECD8E6FB53991728BFD712BAA41E3D8 /* ZSSunorderedlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69181C07BF41D2BECCE9AC82EED6CEC6 /* ZSSunorderedlist@2x.png */; };
+		3F7411A70A9A12B7A5CBA3917E15F15F /* ZSSbold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B356CD67C3442BFF63788D01D17A407E /* ZSSbold@2x.png */; };
+		3FFFDB7113EF1C10BC66F1210BC44D68 /* ZSSorderedlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 23453289AF103FF16527128D27A83D64 /* ZSSorderedlist.png */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40D499BDA3619E8CDDA8A40BDBAC3159 /* ff5353@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAFC87641FD621001A1177124CA85E5 /* ff5353@2x.png */; };
+		414A679672733B779A7304882CEB739F /* ZSSlink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A61F5BC1BABE3E08BD3C1C04CF06F5 /* ZSSlink@2x.png */; };
+		457D794D904CE6AB11428B7E7E336D93 /* ZSSimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 748B318F36C1111E13C20438EFF5507E /* ZSSimage.png */; };
+		48A828D551E410CB31EC537EC8913733 /* ZSSimageDevice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9879DED7DE5E34E5F90D085E3C7871F0 /* ZSSimageDevice@2x.png */; };
+		48B701A44B2416BF62E8F1DD897391BE /* ZSSh2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4623B8C7A14F2650A71308DA5F68B301 /* ZSSh2.png */; };
+		49CD0B581A354D9BF39AC206EAB10D41 /* alignLeftSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0169D4F54F9628B66213421E5C59887F /* alignLeftSelected@2x.png */; };
+		4BBFED324B526B90E6408154D2AABB91 /* ZSSh1.png in Resources */ = {isa = PBXBuildFile; fileRef = 839F450C4B30A5ABA0E3C14FEC305155 /* ZSSh1.png */; };
+		4BC6C82E78F780F033A94C17B6802775 /* ZSSh6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A6E5A1A6C8B7AC7E0D6097633AAE0B /* ZSSh6@2x.png */; };
+		4C22A8F212BF821B550011448717B83B /* ASPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0B7A7E74685208433A0A7EA6A00D53 /* ASPopover.m */; };
+		4C49237904660F1215845D45697AB0CD /* ZSSleftjustify.png in Resources */ = {isa = PBXBuildFile; fileRef = 53504922B6A1B86DA8214D0F7531B69B /* ZSSleftjustify.png */; };
+		4E6E24EBAF23491DC63F206B7D9DCC92 /* Pods-SERichTextEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F18F8EF140EC5F6D73A3D6CA9E82FB7 /* Pods-SERichTextEditor_Tests-dummy.m */; };
+		4F67C73D5E975A877596EFA905FAB0CD /* Pods-SERichTextEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC65C5165F6E3C20042124C19724FFBA /* Pods-SERichTextEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DF7C6532123B6041B25BE7E29EDC65 /* ZSSRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = 2941377E1829DF3F67E1C4BDCDF9DD24 /* ZSSRichTextEditor.js */; };
+		53AF8C0A81694422F88A0DC90F041A5A /* ZSSkeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC976434CDCA266E9AFEA85F52B376 /* ZSSkeyboard@2x.png */; };
+		558C409340F03D8ED92E3F2FF530B3A2 /* ASPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C39DA38EA831497A7C8284345BD1F2C /* ASPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D4BDBDBF0082367C2BE2433D6F7E16 /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D2FC6F4E3217642A9B58E47F94EF7 /* CYRTextView.m */; };
+		57898F4F8F1A47D575D615931462C34E /* fontSizeSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B70DE0A3A68E55F69F2BD11A7EBFE2 /* fontSizeSmall@2x.png */; };
+		581A7EB99011A84964B6769EF070030A /* ZSSbgcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CB17FB811F9688B4260CD624AFB343 /* ZSSbgcolor.png */; };
+		59278F69E98B088F607196048EB205B8 /* ZSSorderedlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CB62A02433914C7BF88E0630D5C3D /* ZSSorderedlist@2x.png */; };
+		5A33C046A4B6C8109F5FEE8EB3BBA573 /* CYRLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8340DD1FCD20ACAD9742718B9F7D17 /* CYRLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9D98A7A5E0341AC800A76486D3F0E3 /* ZSSunderline.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6DB28610F66D4F65927C224F78D6DE /* ZSSunderline.png */; };
+		5AD9E23F21F01F7EAE9CA4221E8C2DEB /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = F2D2227B95C99ED37308154A8F40ECBB /* jQuery.js */; };
+		5BCDB2BFA0468D29E7DAD30644907BAA /* ZSSRichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E56F922759F688FADD471A6DB3F56AE /* ZSSRichTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DDC6B5A4496AD4FA523362CA569D38C /* SEExport.h in Headers */ = {isa = PBXBuildFile; fileRef = A596A15CA09180571738BB49D62B7EA7 /* SEExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F591D67B3DC44331E0F0444A4EBDC6A /* setUnderlineSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9DA39FD3461DA5E9A16F18B3229ED7C /* setUnderlineSelected@2x.png */; };
+		6228BB5BCCB936814ADE39FB668FA0F7 /* fontSizeNomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E73DB73BE9A4FB8D55BBDCEEE9FA51E /* fontSizeNomal@2x.png */; };
+		64EFE2E0B63891CDF2AE25651AD07E03 /* ZSSundo.png in Resources */ = {isa = PBXBuildFile; fileRef = F89529925BC5715CBF748C01E30EC398 /* ZSSundo.png */; };
+		65E8DB3740B8EA52758612AB6E8CDA4A /* setOrderedListSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231FF056B5953390779A5EB4408239BD /* setOrderedListSelected@2x.png */; };
+		6837F3E21FC6F09EED8B24B0BAEBA667 /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 2393813B46FE4FD57246BFDABB8CAF71 /* editor.html */; };
+		68A7CB58AAB549B0D5984D3E535125CE /* ZSSindent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 019DCEA5F17F4652CF2969A861B594D6 /* ZSSindent@2x.png */; };
+		69B97BA7D83E9667F533869A3DC5C315 /* 4caf50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8358DF9CBB351F40C9539281020DEF /* 4caf50@2x.png */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6AE3B2A1A011DC55C2246613F4B1165E /* 252120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328A943A0BA215CB361D4C36624F85D1 /* 252120@2x.png */; };
+		6D07B8426122DEDEF3E4DDE171305FAF /* ZSSrightjustify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C79924BF91A7F1EBA49026CE2ECFAA7 /* ZSSrightjustify@2x.png */; };
+		6D261F144118189F4687B1340FBCC4D6 /* ZSSunlink.png in Resources */ = {isa = PBXBuildFile; fileRef = E607C85E8623D324D2B19BDB92A71E45 /* ZSSunlink.png */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		6FE6364C405CA3B7641560ED25ECD6EE /* ZSSleftjustify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB56E96A89B2F1EAC267364AE032FE7B /* ZSSleftjustify@2x.png */; };
+		7064159CA6093F6F4C9D94CD5A2BCBBD /* 45c3e9Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89F88BAAB51B21DFE76D5597573FDF71 /* 45c3e9Selected@2x.png */; };
+		71583AE489DB03D8C2E9CE3DCF2C15D2 /* ZSSfonts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1331C598FD6DBEE4AB997F6E37D27EB5 /* ZSSfonts.png */; };
+		71A1B58CDA9184472CDA3A1911CDDD95 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1EEECF15B1410400E8FE36EB8CE6C /* HRColorPickerView.m */; };
+		72CA71EAE1A18C6BA4DE324A8978924D /* fontSizeLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DACF3B18D2087ABA1023AC2DF4F28C0 /* fontSizeLarge@2x.png */; };
+		74248B96A2A7DA4757BA97ABDF2F1199 /* ZSSfonts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC7D4A0C4BB252B6797D650DDAD00D9 /* ZSSfonts@2x.png */; };
+		759BE82BC2210AC9AC22D309A3D2C28C /* ZSSh4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D9425AF2F5686F4AE4D408944B824C9 /* ZSSh4.png */; };
+		76F6DB4438431E2BEB415D9ED1DC3E89 /* SERichTextEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DA3EC714D31468ABECC10AD1A17419 /* SERichTextEditor-dummy.m */; };
+		78C6E5E5B6A50AD8CFBC7BFECD9197C2 /* ZSSredo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D65E9B57FCDFB60A2F651E4E38F9FC /* ZSSredo.png */; };
+		7B7CFD95253D45B5F58D4561FE41DC40 /* ZSScenterjustify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF52D1ABBE8A0496912E97924D6466B /* ZSScenterjustify@2x.png */; };
+		7C5A469989051A063DE5483525007667 /* ZSSh1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59347928E39DEE6AAE94EC63F0575E8 /* ZSSh1@2x.png */; };
+		7D5912E2E52755B85081A9682D3D4448 /* editor.html in Sources */ = {isa = PBXBuildFile; fileRef = 2393813B46FE4FD57246BFDABB8CAF71 /* editor.html */; };
+		7F9B146206B3B90A63DA22A5F1543290 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 67176E0A565074DC51D175C4B0C3F22B /* CYRToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802053E4638776828241A4419B7AFC67 /* foreColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4418C5726A49280BC526B6741F4734A /* foreColor@2x.png */; };
+		8073C85C4A6EFBC45EA44EC6448178AF /* eea849@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7512C038C1BCD95FD9F28D6A2B955A7 /* eea849@2x.png */; };
+		8254D19BE759D38CBA5A18F17B8E7A11 /* setItalicSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F2BE17A30165B48CCF9B949DF301 /* setItalicSelected@2x.png */; };
+		835426F2694E8CC3BD962851CC4BB204 /* ZSSsuperscript.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AE55441968FB0EBDDD24B3AFBFAD35A /* ZSSsuperscript.png */; };
+		864FB06D7D57089135449D71D427538C /* ZSSinsertkeyword@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C89EF8514884905FB71121B64A2EEA5A /* ZSSinsertkeyword@2x.png */; };
+		870BCA04DB09DEAE229F5136445C8534 /* ZSSoutdent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52745E48083178D6848E381E6CCF6F75 /* ZSSoutdent@2x.png */; };
+		87558E1D5198325942CC553E9DDFC1D4 /* ZSSclearstyle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6003287587FC4ED732552EC5AF49F9 /* ZSSclearstyle.png */; };
+		88258201230C5561970A39FB25552EC7 /* setUnorderedList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59DF768FFCB732C8AE10319AE51632E /* setUnorderedList@2x.png */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8E69ECD3AC578BFA67BD87B04E54635B /* ZSSitalic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1E18295D511F404D0C889E3913403 /* ZSSitalic.png */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BA8E104B87C0C872A2BEF751C20E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		94DD6623E5EB07283BB0068607C06570 /* ZSSsubscript.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0BA95C433012481BF25AFAE376728D /* ZSSsubscript.png */; };
+		9570DEAA34CF2D09FFAEF27487872D4A /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A367685D9B193E9C231BA6650CF844AA /* CYRLayoutManager.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9F908F868F9BC6940963AB2DFE9F7092 /* alignCenterSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4211357BB7727F702EEBF0BFE02EBEA /* alignCenterSelected@2x.png */; };
+		A062244782D4E21C5A03B03CA5B97D33 /* 817f80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5268CECD746633A0F6C9727BF0D9D8D0 /* 817f80@2x.png */; };
+		A2A1848F5244036072947C86640BDEA2 /* sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E09EBFF7D09ED71D9E4B74A0DDFCC01D /* sort@2x.png */; };
+		A34FA8F5610AA8CDB8B49891FC4B975E /* ZSSh3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B1F891873BD0B8DB4A8DBB7C5E33080 /* ZSSh3@2x.png */; };
+		A37D6DE0A9D399BA7D42C36FF8971C38 /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC1BE354756D9D432277CD1A06ED1B /* HRColorPickerViewController.m */; };
+		A4AF6D3D1F492569105318007347E893 /* SERichTextEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA3BE99FC5EB3583CE050A4B74CB770 /* SERichTextEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E37E39CFA81D3F9F10DAE42A4054CB /* ZSSBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC145F7A3632759ADDB21423E88C73E /* ZSSBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		ABD4238F7FCAA6B68527F3450AE5CF98 /* HRColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A045840FC72A24574A8A0A1CFDA6C2A4 /* HRColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7AAAF53EB8F2BA471176813779AA3B0 /* ZSSinsertkeyword.png in Resources */ = {isa = PBXBuildFile; fileRef = B67DDB8D22D65C72EB9363648FEAE761 /* ZSSinsertkeyword.png */; };
+		BB5454022F663C587CE2705A2C2E1AFF /* ZSScenterjustify.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4160B08428E30F6785D50213B4BE10 /* ZSScenterjustify.png */; };
+		BB910D8DBD1596499E2B03FCA4E82761 /* HRColorPickerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 747DB85EC1D3F1FFCD5E1D8E19B0BABB /* HRColorPickerMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE324B8901BDAC90A944FEFA2FDE93C /* JSBeautifier.js in Sources */ = {isa = PBXBuildFile; fileRef = 36F7580656935B662E4695A398D7A39A /* JSBeautifier.js */; };
+		C176E02DEAE6066E1AB7C6F210972B65 /* ZSSRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BD368EC3AFD555E3311D438BBD244F /* ZSSRichTextEditor.m */; };
+		C1FD347010FE005E253DF37EE68A0411 /* ZSSFontsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA11A313F34BEA27E3F98E4FEAB7C5 /* ZSSFontsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34210123804B46FCB7FBEBB290FB2EB /* setBold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24104CD5D64F83B29A2B8CA51CB3B34 /* setBold@2x.png */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5470F9A8F2912E46D1F64E6D364C0AA /* fontSizeNomalSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C988DC388E9326D4A7265B61D8C926 /* fontSizeNomalSelected@2x.png */; };
+		C5C03078A6454D5AAD18E49DD3358AAC /* ZSSimageDevice.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C7D03E2892ACD1A761C2BE9BA960C /* ZSSimageDevice.png */; };
+		C68E291B3FB718E930B0D3E75D16BBFC /* jQuery.js in Sources */ = {isa = PBXBuildFile; fileRef = F2D2227B95C99ED37308154A8F40ECBB /* jQuery.js */; };
+		C71BC11E39F339A7CC960C224C11B16E /* ZSSRichTextEditor.js in Sources */ = {isa = PBXBuildFile; fileRef = 2941377E1829DF3F67E1C4BDCDF9DD24 /* ZSSRichTextEditor.js */; };
+		C72CF5C5BBEB2C116F4BC344A222C71B /* Pods-SERichTextEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FA335477BAF0574CCAAF43C1104CC2 /* Pods-SERichTextEditor_Example-dummy.m */; };
+		C849A330F4DEF265D544026B0EA7CE43 /* ZSSsuperscript@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CEABB02C5415D3AA1E9B0D440BCE49 /* ZSSsuperscript@2x.png */; };
+		C9336E46742DEA7DE36B61F5BCD21A28 /* ZSSh6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA61D22B6483FB12BA2D17DB1B0A83 /* ZSSh6.png */; };
+		CB244D06B88F8068BEA07BD79770845D /* alignRightSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49FEF20647C5C1674FDFB71D4436134 /* alignRightSelected@2x.png */; };
+		CBA772C3366DD420C37E41AFD44FB7FB /* ZSSstrikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F0FE1CB4434CF7936DCA1CFD908908 /* ZSSstrikethrough.png */; };
+		CBC3CE9838634D59FF5C6CA73CF99BAE /* ZSStextcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 40468D736DF7706AFBB58F21B91B8ACA /* ZSStextcolor.png */; };
+		CECED293E9F4D2A5441B45C7389459F5 /* ZSSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109B1B25F1414D5982FBAA0A846915A8 /* ZSSTextView.m */; };
+		D011E4C57D6F842538B870C5C4C9F204 /* HRColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 17876E74A26F1563B9D5603CB69DF7B6 /* HRColorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03AC432BE9A9021D78A76B1D54F83A1 /* ZSSBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA71E6AF711C87B6B0BDEA78D0576845 /* ZSSBarButtonItem.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D129C91179BF4FC91E9CD899ECD3147D /* ZSSlink.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC43AD382B068F091C3E044807ADAC /* ZSSlink.png */; };
+		D1B8BCE16B1FC0B30BC9AB3F187FAF8A /* SERichTextEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0B1ADE6C128E1B92BF7567ADCB5C95 /* SERichTextEditorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1C9EBB4B23B21403B73DD00FC315EB1 /* ZSSh5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7EC4CC4DB95F1E2ADA7F7EA766A96B /* ZSSh5@2x.png */; };
+		D463DF759691F2DE08564F0F192A71EC /* ZSStable.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BD7428FF6E21C0E760808EF3FA6CD5 /* ZSStable.png */; };
+		D5482799D3B68F13192B6E72B6955F9B /* redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7ACFA94AE038684A17EF5F92F0DBB8 /* redo@2x.png */; };
+		D8574EACD0791B354EDD24ECF9518364 /* toolBarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F399D34B03B7371EF266D7CD365C7640 /* toolBarBg.png */; };
+		D95F20C49596C116313DBB00F2CB154A /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA89CC49642414E14C132DC557CAAF61 /* CYRTextStorage.m */; };
+		DA5F37C230A1C0E4F9C0AF114793990C /* ZSSindent.png in Resources */ = {isa = PBXBuildFile; fileRef = 28767CDF154072539FD6A05EB74CFC9A /* ZSSindent.png */; };
+		DB75DDA994781D106A8765FCFCF7279F /* ZSSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A665D0578DF1D15F497970D0EBBD2B /* ZSSTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBEEB608EF72E6A2B6EDA141ED35697 /* ZSSbgcolor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 503009B869801AAD8C544D866ED5BBF5 /* ZSSbgcolor@2x.png */; };
+		DBEBEE63E1F643E732CE0F600854E916 /* ZSSoutdent.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7249BF49F78DFC10B0FF7B1F69DE12 /* ZSSoutdent.png */; };
+		DCB008274DFFD4788DFFE199F932F3A9 /* ZSSviewsource@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B1F45A7678BEF76659FC27AB4D21B /* ZSSviewsource@2x.png */; };
+		DEB99B91BD80340D3079CB1D07F5C8CF /* ZSSunderline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C4AF90FBF3D3FFBE8FD1BD09801A4 /* ZSSunderline@2x.png */; };
+		DFCE1A275E9BA8BF40EE33E68F93854D /* setItalic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D844475972F0DFF63DA1014006783AD /* setItalic@2x.png */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E1F0C8A5E81F99D0B37DEED35B71D6EC /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = 36F7580656935B662E4695A398D7A39A /* JSBeautifier.js */; };
+		E2D154B1446EC027965A71179BC2A4C8 /* font@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A0651517A402527D778810C06F695C /* font@2x.png */; };
+		E3273891B2DC8460E25125687A6BF5BB /* ZSSquicklink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D4C7D198B6B1D7AC38F7B2D7D74610 /* ZSSquicklink@2x.png */; };
+		E36BF03C5E13D35D0F9A7F32051650C5 /* ZSSparagraph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D4FA84EC71D15DA056989F7F240AD4 /* ZSSparagraph@2x.png */; };
+		E3E506496E41549C689DD2E502C76E7C /* setUnderline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D925F112260632523D68AE118EFD97B2 /* setUnderline@2x.png */; };
+		E5D14216465052CEBCEFD42CA2DF6B15 /* ZSSunlink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF487C7EC44D32ADF10CA6A0DBDF45E /* ZSSunlink@2x.png */; };
+		E61A1739809BA7C0745ED8EA3E137219 /* setUnorderedListSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3099359A9678408FC697924AED7850 /* setUnorderedListSelected@2x.png */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		E9C9C174B87C9A9A836A504BB04D53E5 /* ZSStextcolor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CFC406C6BE7FC03285C34B60B7F4D6 /* ZSStextcolor@2x.png */; };
+		EC4F14D1A92A90054D6F6E39A3A37746 /* ZSSimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F27BA5461B8647A4D7E72B99023C69 /* ZSSimage@2x.png */; };
+		EC859FB191C3C46828FF9A7437BEF574 /* ZSSstrikethrough@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F220B59972C61DE0BA5F24A7DF3FCE1C /* ZSSstrikethrough@2x.png */; };
+		EDEBF3C33780185A0E8B336DB7661A39 /* ZSSclearstyle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C27083BAFF5CCA009B1C280015B7C336 /* ZSSclearstyle@2x.png */; };
+		EF3C9DBBBBD7DFC6274F1412C45862F2 /* ZSStable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B857B97F84719A2A0C8CCB795C87A4F /* ZSStable@2x.png */; };
+		F0CE2AF427641B611D702ED929C3E032 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE3BC1CF1BD0D5B91769AC9B8CDBEF /* HRBrightnessCursor.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4A2822452E419E906FB35F2ECE58E58 /* ZSSrightjustify.png in Resources */ = {isa = PBXBuildFile; fileRef = 685E3EAA51192887478012A88BB5C894 /* ZSSrightjustify.png */; };
+		F664D61FED5DED4E138F1DBD737A0BA0 /* ZSSviewsource.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EAE5553E20F9262145BFF38CEFF4B2 /* ZSSviewsource.png */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F76BE274F11198607B13BDD98AB8A862 /* ZSSquicklink.png in Resources */ = {isa = PBXBuildFile; fileRef = 313865B5D37B696B8776CE63FC7D234C /* ZSSquicklink.png */; };
+		F97E16D7E943A82FD9B3AB3CE40E6C9B /* HRColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CB10D4CF6C1C9991D7F947583F96A1 /* HRColorPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9957B5FF59D0C7DE8D17BF702D9FEDB /* Pods-SERichTextEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99924357215C8919AB4DA0A0254A140D /* Pods-SERichTextEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F997D72DD69BEC607F8ED9A65A0958F6 /* 817f80Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A78D028313ACDC2FA38DA6F8B0D636 /* 817f80Selected@2x.png */; };
+		FADD6E6BD19CE7825D87CF0A5375F7C3 /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D4FA68BBAEE534754691D53256CF34 /* HRCgUtil.m */; };
+		FBF03A82D329FBD1EAE5A11282CF9EFA /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 239531D3B1B732C8609258CBDFCB05D7 /* CYRToken.m */; };
+		FC4FB8FD0E210C30740255E7AD5AB278 /* ZSSforcejustify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F226641D290BF57D9175D20BBB2BBA9 /* ZSSforcejustify@2x.png */; };
+		FC7DAE8BAA5B1D7D44B88D9CC490DC5E /* alignCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB1D791904E766A076B9795B238F03F /* alignCenter@2x.png */; };
+		FCCFC0E6CB9FDDA80CAC79C8044D679C /* SERichTextEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2102E606EF9B3F855F1C53FA272C90D4 /* SERichTextEditor.bundle */; };
+		FD6FD00CA8FFB15D3D1CE5BDBD49625B /* setBoldSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBAFC1DFAE1BB4067EE36829C09CEE0E /* setBoldSelected@2x.png */; };
+		FF68C1B37D24D0BC593629A27836FF57 /* undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3BE21D65944221616B4C0B0F3DB1429 /* undo@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115220B891268572A0CA5FA54626E29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0598191AAA4CD06B809FA7C7A606EB61;
+			remoteInfo = "SERichTextEditor-SERichTextEditor";
+		};
+		9ADBCBF2A253FB736976894DF6D87626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B1573EBA6080CAEC1D0EC11DA14136D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E573CAECD35ED0BECEAF2DB5530C76;
+			remoteInfo = "Pods-SERichTextEditor_Example";
+		};
+		FD971C6A93ECACE2683F5027CF284056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C57B222BFE847B1519958620B04C3A;
+			remoteInfo = SERichTextEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000078B5AA5E362DC09AEA157EDEF4A7 /* SERichTextEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SERichTextEditor.framework; path = SERichTextEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0169D4F54F9628B66213421E5C59887F /* alignLeftSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignLeftSelected@2x.png"; sourceTree = "<group>"; };
+		019DCEA5F17F4652CF2969A861B594D6 /* ZSSindent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSindent@2x.png"; sourceTree = "<group>"; };
+		049D2FC6F4E3217642A9B58E47F94EF7 /* CYRTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYRTextView.m; sourceTree = "<group>"; };
+		04C52F6B188040B4DDB0C4FBF5E569C7 /* Pods-SERichTextEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SERichTextEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		055B35770CB2FBD5740E6622F245FC10 /* ZSSkeyboard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSkeyboard.png; sourceTree = "<group>"; };
+		07260FF300C7256ECD8F866ADEC28B2C /* Pods-SERichTextEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERichTextEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C3099359A9678408FC697924AED7850 /* setUnorderedListSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setUnorderedListSelected@2x.png"; sourceTree = "<group>"; };
+		0C7EC4CC4DB95F1E2ADA7F7EA766A96B /* ZSSh5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh5@2x.png"; sourceTree = "<group>"; };
+		0CFD73428E4EF7D590A078ED6EDCFA96 /* Pods-SERichTextEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SERichTextEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E157A17F8AF2942F97CBF323D314917 /* HRColorCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		0E1C7D03E2892ACD1A761C2BE9BA960C /* ZSSimageDevice.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSimageDevice.png; sourceTree = "<group>"; };
+		0F0B1ADE6C128E1B92BF7567ADCB5C95 /* SERichTextEditorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SERichTextEditorViewController.h; sourceTree = "<group>"; };
+		0F18F8EF140EC5F6D73A3D6CA9E82FB7 /* Pods-SERichTextEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SERichTextEditor_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		109B1B25F1414D5982FBAA0A846915A8 /* ZSSTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZSSTextView.m; sourceTree = "<group>"; };
+		1331C598FD6DBEE4AB997F6E37D27EB5 /* ZSSfonts.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSfonts.png; sourceTree = "<group>"; };
+		17876E74A26F1563B9D5603CB69DF7B6 /* HRColorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRColorUtil.h; sourceTree = "<group>"; };
+		196010C38945A6A5E272F5439DAECEC4 /* HRColorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRColorUtil.m; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1C39DA38EA831497A7C8284345BD1F2C /* ASPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASPopover.h; sourceTree = "<group>"; };
+		1D69CE858FDF2AABF292841552DA3B5F /* alignRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignRight@2x.png"; sourceTree = "<group>"; };
+		1EAFC87641FD621001A1177124CA85E5 /* ff5353@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ff5353@2x.png"; sourceTree = "<group>"; };
+		2102885274724492AF5939C5BE9A3E3F /* ZSSredo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSredo@2x.png"; sourceTree = "<group>"; };
+		2102E606EF9B3F855F1C53FA272C90D4 /* SERichTextEditor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SERichTextEditor.bundle; path = "SERichTextEditor-SERichTextEditor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231FF056B5953390779A5EB4408239BD /* setOrderedListSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setOrderedListSelected@2x.png"; sourceTree = "<group>"; };
+		23453289AF103FF16527128D27A83D64 /* ZSSorderedlist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSorderedlist.png; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		2393813B46FE4FD57246BFDABB8CAF71 /* editor.html */ = {isa = PBXFileReference; includeInIndex = 1; path = editor.html; sourceTree = "<group>"; };
+		239531D3B1B732C8609258CBDFCB05D7 /* CYRToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYRToken.m; sourceTree = "<group>"; };
+		2651EDE26181A40DC9A40F69E0A32C97 /* CYRTextStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYRTextStorage.h; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		277DEEF6973FD2A46FEEC85910F6774E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		28767CDF154072539FD6A05EB74CFC9A /* ZSSindent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSindent.png; sourceTree = "<group>"; };
+		2941377E1829DF3F67E1C4BDCDF9DD24 /* ZSSRichTextEditor.js */ = {isa = PBXFileReference; includeInIndex = 1; path = ZSSRichTextEditor.js; sourceTree = "<group>"; };
+		2C3048993DACC06AA70CDEF50FF32F35 /* setOrderedList@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setOrderedList@2x.png"; sourceTree = "<group>"; };
+		2C79924BF91A7F1EBA49026CE2ECFAA7 /* ZSSrightjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSrightjustify@2x.png"; sourceTree = "<group>"; };
+		2F226641D290BF57D9175D20BBB2BBA9 /* ZSSforcejustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSforcejustify@2x.png"; sourceTree = "<group>"; };
+		2F5CB62A02433914C7BF88E0630D5C3D /* ZSSorderedlist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSorderedlist@2x.png"; sourceTree = "<group>"; };
+		2FAEB4CF94F5DF087CB54D0E23F7738A /* Pods-SERichTextEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SERichTextEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3105A394D2E005BE6B81180B73ADDB92 /* SERichTextEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SERichTextEditor-prefix.pch"; sourceTree = "<group>"; };
+		313865B5D37B696B8776CE63FC7D234C /* ZSSquicklink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSquicklink.png; sourceTree = "<group>"; };
+		328A943A0BA215CB361D4C36624F85D1 /* 252120@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "252120@2x.png"; sourceTree = "<group>"; };
+		342567E336DA4D2672F09C1F1671EBAB /* fontSizeLargeSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeLargeSelected@2x.png"; sourceTree = "<group>"; };
+		3449457A0EDAC05946556BE984D236D1 /* ASPopoverOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASPopoverOption.h; sourceTree = "<group>"; };
+		36CB10D4CF6C1C9991D7F947583F96A1 /* HRColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		36F7580656935B662E4695A398D7A39A /* JSBeautifier.js */ = {isa = PBXFileReference; includeInIndex = 1; path = JSBeautifier.js; sourceTree = "<group>"; };
+		383188C8B5FB61B61A0C4E50619BF34F /* 45c3e9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "45c3e9@2x.png"; sourceTree = "<group>"; };
+		3A2C4AF90FBF3D3FFBE8FD1BD09801A4 /* ZSSunderline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSunderline@2x.png"; sourceTree = "<group>"; };
+		3AA3BE99FC5EB3583CE050A4B74CB770 /* SERichTextEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SERichTextEditor-umbrella.h"; sourceTree = "<group>"; };
+		3AD5F2BE17A30165B48CCF9B949DF301 /* setItalicSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setItalicSelected@2x.png"; sourceTree = "<group>"; };
+		3BB1D791904E766A076B9795B238F03F /* alignCenter@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignCenter@2x.png"; sourceTree = "<group>"; };
+		3BC145F7A3632759ADDB21423E88C73E /* ZSSBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZSSBarButtonItem.h; sourceTree = "<group>"; };
+		3C8358DF9CBB351F40C9539281020DEF /* 4caf50@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "4caf50@2x.png"; sourceTree = "<group>"; };
+		3CB1E18295D511F404D0C889E3913403 /* ZSSitalic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSitalic.png; sourceTree = "<group>"; };
+		3CBC43AD382B068F091C3E044807ADAC /* ZSSlink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSlink.png; sourceTree = "<group>"; };
+		3CF487C7EC44D32ADF10CA6A0DBDF45E /* ZSSunlink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSunlink@2x.png"; sourceTree = "<group>"; };
+		3E7ACFA94AE038684A17EF5F92F0DBB8 /* redo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "redo@2x.png"; sourceTree = "<group>"; };
+		3EA060FB6CC55F285998F4711A869B2C /* 252120Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "252120Selected@2x.png"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		40468D736DF7706AFBB58F21B91B8ACA /* ZSStextcolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSStextcolor.png; sourceTree = "<group>"; };
+		41EC5CD4429875FF93F5AB80A7891CE8 /* SERichTextEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SERichTextEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43A665D0578DF1D15F497970D0EBBD2B /* ZSSTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZSSTextView.h; sourceTree = "<group>"; };
+		4541B940A72FAF49DEDED7264EA4A873 /* ResourceBundle-SERichTextEditor-SERichTextEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SERichTextEditor-SERichTextEditor-Info.plist"; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		457436A9194A7738AC54600339D346F6 /* ZSSbold.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSbold.png; sourceTree = "<group>"; };
+		4623B8C7A14F2650A71308DA5F68B301 /* ZSSh2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh2.png; sourceTree = "<group>"; };
+		48A0651517A402527D778810C06F695C /* font@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "font@2x.png"; sourceTree = "<group>"; };
+		48D770B4D33B0F7E669626928C79BDC3 /* HRCgUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRCgUtil.h; sourceTree = "<group>"; };
+		4BF52D1ABBE8A0496912E97924D6466B /* ZSScenterjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSScenterjustify@2x.png"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4D844475972F0DFF63DA1014006783AD /* setItalic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setItalic@2x.png"; sourceTree = "<group>"; };
+		4DACF3B18D2087ABA1023AC2DF4F28C0 /* fontSizeLarge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeLarge@2x.png"; sourceTree = "<group>"; };
+		4FDD31DBA193E9BABA7A7EFCEA8D8D96 /* Pods_SERichTextEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SERichTextEditor_Tests.framework; path = "Pods-SERichTextEditor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503009B869801AAD8C544D866ED5BBF5 /* ZSSbgcolor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSbgcolor@2x.png"; sourceTree = "<group>"; };
+		5260CDCB43BC8F1AEFBD0BB5122D0488 /* SERichTextEditorViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SERichTextEditorViewController.m; sourceTree = "<group>"; };
+		5268CECD746633A0F6C9727BF0D9D8D0 /* 817f80@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "817f80@2x.png"; sourceTree = "<group>"; };
+		52745E48083178D6848E381E6CCF6F75 /* ZSSoutdent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSoutdent@2x.png"; sourceTree = "<group>"; };
+		53188DFF3E75AF83AD39AC8BB58EF444 /* ZSShorizontalrule.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSShorizontalrule.png; sourceTree = "<group>"; };
+		53504922B6A1B86DA8214D0F7531B69B /* ZSSleftjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSleftjustify.png; sourceTree = "<group>"; };
+		54C544107FDFE2F59823AD1910C36B2D /* ZSSh2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh2@2x.png"; sourceTree = "<group>"; };
+		57BF93D37DDB73F085DC7D2BC584B07E /* Pods-SERichTextEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERichTextEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59DA3EC714D31468ABECC10AD1A17419 /* SERichTextEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SERichTextEditor-dummy.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5EAA61D22B6483FB12BA2D17DB1B0A83 /* ZSSh6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh6.png; sourceTree = "<group>"; };
+		5F534EF2A24EBB4DDFB06EB9549C4AB4 /* Pods-SERichTextEditor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERichTextEditor_Tests-Info.plist"; sourceTree = "<group>"; };
+		5F6003287587FC4ED732552EC5AF49F9 /* ZSSclearstyle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSclearstyle.png; sourceTree = "<group>"; };
+		61F27BA5461B8647A4D7E72B99023C69 /* ZSSimage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSimage@2x.png"; sourceTree = "<group>"; };
+		61FA9549648024B05ECC32C4F1E18F33 /* ZSSh4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh4@2x.png"; sourceTree = "<group>"; };
+		620E499D3A550570BC8DB2576ED473A3 /* changeFontSize@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "changeFontSize@2x.png"; sourceTree = "<group>"; };
+		644DB722C2914FD63FC251EEB8EF78A1 /* ZSSparagraph.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSparagraph.png; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		66F63856C6E0438CCD3391EF0C3E3779 /* SERichTextEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SERichTextEditor-Info.plist"; sourceTree = "<group>"; };
+		67176E0A565074DC51D175C4B0C3F22B /* CYRToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYRToken.h; sourceTree = "<group>"; };
+		685E3EAA51192887478012A88BB5C894 /* ZSSrightjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSrightjustify.png; sourceTree = "<group>"; };
+		69181C07BF41D2BECCE9AC82EED6CEC6 /* ZSSunorderedlist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSunorderedlist@2x.png"; sourceTree = "<group>"; };
+		6982F587B29D067F1DE724ECE0DC0FA7 /* ZSSunorderedlist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSunorderedlist.png; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6E56F922759F688FADD471A6DB3F56AE /* ZSSRichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZSSRichTextEditor.h; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71F0FE1CB4434CF7936DCA1CFD908908 /* ZSSstrikethrough.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSstrikethrough.png; sourceTree = "<group>"; };
+		747DB85EC1D3F1FFCD5E1D8E19B0BABB /* HRColorPickerMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRColorPickerMacros.h; sourceTree = "<group>"; };
+		748B318F36C1111E13C20438EFF5507E /* ZSSimage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSimage.png; sourceTree = "<group>"; };
+		75BD368EC3AFD555E3311D438BBD244F /* ZSSRichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZSSRichTextEditor.m; sourceTree = "<group>"; };
+		78EDC7D02E6CD52BBA99B3100829E046 /* ZSSforcejustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSforcejustify.png; sourceTree = "<group>"; };
+		792C7E31B8F6FF69C45926B24D8DE482 /* Pods-SERichTextEditor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SERichTextEditor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7A2AB9F23E843617F88073D3C4EFC8D1 /* Pods-SERichTextEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERichTextEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4160B08428E30F6785D50213B4BE10 /* ZSScenterjustify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSScenterjustify.png; sourceTree = "<group>"; };
+		7AFC976434CDCA266E9AFEA85F52B376 /* ZSSkeyboard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSkeyboard@2x.png"; sourceTree = "<group>"; };
+		7B0B7A7E74685208433A0A7EA6A00D53 /* ASPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASPopover.m; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BE331F3DC968833C442D45F30897763 /* ZSSsubscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSsubscript@2x.png"; sourceTree = "<group>"; };
+		7C54D7B478701A6CF4BB793E4258030C /* align@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "align@2x.png"; sourceTree = "<group>"; };
+		7D8340DD1FCD20ACAD9742718B9F7D17 /* CYRLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYRLayoutManager.h; sourceTree = "<group>"; };
+		7D9425AF2F5686F4AE4D408944B824C9 /* ZSSh4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh4.png; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		8078A1B36A736B1F2799730B3481CCDB /* HRBrightnessCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		82D4BECEEE096F2068438E7B2A90E46F /* 4caf50Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "4caf50Selected@2x.png"; sourceTree = "<group>"; };
+		839F450C4B30A5ABA0E3C14FEC305155 /* ZSSh1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh1.png; sourceTree = "<group>"; };
+		84FE68BD57EAC20A7AA62CCDA189D26D /* Pods-SERichTextEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SERichTextEditor_Example.modulemap"; sourceTree = "<group>"; };
+		857FFC64E085792ECC622B0AD051E4DD /* Pods-SERichTextEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERichTextEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85A6E5A1A6C8B7AC7E0D6097633AAE0B /* ZSSh6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh6@2x.png"; sourceTree = "<group>"; };
+		85CFC406C6BE7FC03285C34B60B7F4D6 /* ZSStextcolor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSStextcolor@2x.png"; sourceTree = "<group>"; };
+		8608C7EF3ABC351EEB60B108031791AE /* ff5353Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ff5353Selected@2x.png"; sourceTree = "<group>"; };
+		863A966125A14541E021E71278D424BC /* ZSSh3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh3.png; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		89F88BAAB51B21DFE76D5597573FDF71 /* 45c3e9Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "45c3e9Selected@2x.png"; sourceTree = "<group>"; };
+		8AE55441968FB0EBDDD24B3AFBFAD35A /* ZSSsuperscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSsuperscript.png; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DDE3BC1CF1BD0D5B91769AC9B8CDBEF /* HRBrightnessCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8EB09A1ED3AE68C5B6F4EC957A41C523 /* CYRTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYRTextView.h; sourceTree = "<group>"; };
+		93A61F5BC1BABE3E08BD3C1C04CF06F5 /* ZSSlink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSlink@2x.png"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9879DED7DE5E34E5F90D085E3C7871F0 /* ZSSimageDevice@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSimageDevice@2x.png"; sourceTree = "<group>"; };
+		99924357215C8919AB4DA0A0254A140D /* Pods-SERichTextEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SERichTextEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9A166F7EBABBAE8BB00F484F3186125E /* ZSSpicker@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSpicker@2x.png"; sourceTree = "<group>"; };
+		9B1F891873BD0B8DB4A8DBB7C5E33080 /* ZSSh3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh3@2x.png"; sourceTree = "<group>"; };
+		9B857B97F84719A2A0C8CCB795C87A4F /* ZSStable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSStable@2x.png"; sourceTree = "<group>"; };
+		9B95EC1FB91A36336F38C97E0D8CE8A8 /* HRColorCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E73DB73BE9A4FB8D55BBDCEEE9FA51E /* fontSizeNomal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeNomal@2x.png"; sourceTree = "<group>"; };
+		9F4B1F45A7678BEF76659FC27AB4D21B /* ZSSviewsource@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSviewsource@2x.png"; sourceTree = "<group>"; };
+		A045840FC72A24574A8A0A1CFDA6C2A4 /* HRColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		A1D4FA68BBAEE534754691D53256CF34 /* HRCgUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRCgUtil.m; sourceTree = "<group>"; };
+		A355A1B02A2635F8B16353796D0C8A94 /* ZSSFontsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZSSFontsViewController.m; sourceTree = "<group>"; };
+		A367685D9B193E9C231BA6650CF844AA /* CYRLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYRLayoutManager.m; sourceTree = "<group>"; };
+		A4D4FA84EC71D15DA056989F7F240AD4 /* ZSSparagraph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSparagraph@2x.png"; sourceTree = "<group>"; };
+		A596A15CA09180571738BB49D62B7EA7 /* SEExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SEExport.h; sourceTree = "<group>"; };
+		A9CB17FB811F9688B4260CD624AFB343 /* ZSSbgcolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSbgcolor.png; sourceTree = "<group>"; };
+		A9D4C7D198B6B1D7AC38F7B2D7D74610 /* ZSSquicklink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSquicklink@2x.png"; sourceTree = "<group>"; };
+		A9EEE564827EDE084E46CA7FDC10B004 /* ZSShorizontalrule@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSShorizontalrule@2x.png"; sourceTree = "<group>"; };
+		AE608AE0107F99BF990F325309DA1E7A /* ZSSitalic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSitalic@2x.png"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B356CD67C3442BFF63788D01D17A407E /* ZSSbold@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSbold@2x.png"; sourceTree = "<group>"; };
+		B59DF768FFCB732C8AE10319AE51632E /* setUnorderedList@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setUnorderedList@2x.png"; sourceTree = "<group>"; };
+		B5C1B0DB12336BABE0E53958FD393F82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B67DDB8D22D65C72EB9363648FEAE761 /* ZSSinsertkeyword.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSinsertkeyword.png; sourceTree = "<group>"; };
+		B68DB51EBD98A15D4BB1509791F8AA5E /* SERichTextEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SERichTextEditor.release.xcconfig; sourceTree = "<group>"; };
+		B6DA11A313F34BEA27E3F98E4FEAB7C5 /* ZSSFontsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZSSFontsViewController.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B7512C038C1BCD95FD9F28D6A2B955A7 /* eea849@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "eea849@2x.png"; sourceTree = "<group>"; };
+		B9486792034C9E075625772405C3B4B5 /* SERichTextEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SERichTextEditor.modulemap; sourceTree = "<group>"; };
+		BAF6A3541002FFDCA8B66DF70C6F5CC8 /* SERichTextEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SERichTextEditor.debug.xcconfig; sourceTree = "<group>"; };
+		C0A78D028313ACDC2FA38DA6F8B0D636 /* 817f80Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "817f80Selected@2x.png"; sourceTree = "<group>"; };
+		C1FA335477BAF0574CCAAF43C1104CC2 /* Pods-SERichTextEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SERichTextEditor_Example-dummy.m"; sourceTree = "<group>"; };
+		C27083BAFF5CCA009B1C280015B7C336 /* ZSSclearstyle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSclearstyle@2x.png"; sourceTree = "<group>"; };
+		C4418C5726A49280BC526B6741F4734A /* foreColor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "foreColor@2x.png"; sourceTree = "<group>"; };
+		C57ED0D19F97BCFFEBF8ECB206F2DC2C /* alignLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignLeft@2x.png"; sourceTree = "<group>"; };
+		C5D65E9B57FCDFB60A2F651E4E38F9FC /* ZSSredo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSredo.png; sourceTree = "<group>"; };
+		C6C65A5D33B931690036C54838C7A381 /* Pods-SERichTextEditor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SERichTextEditor_Example-Info.plist"; sourceTree = "<group>"; };
+		C89EF8514884905FB71121B64A2EEA5A /* ZSSinsertkeyword@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSinsertkeyword@2x.png"; sourceTree = "<group>"; };
+		C9DA39FD3461DA5E9A16F18B3229ED7C /* setUnderlineSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setUnderlineSelected@2x.png"; sourceTree = "<group>"; };
+		CA89CC49642414E14C132DC557CAAF61 /* CYRTextStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYRTextStorage.m; sourceTree = "<group>"; };
+		CB56E96A89B2F1EAC267364AE032FE7B /* ZSSleftjustify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSleftjustify@2x.png"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC0BA95C433012481BF25AFAE376728D /* ZSSsubscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSsubscript.png; sourceTree = "<group>"; };
+		CF0864EC5531CC975D3538B0480B9E95 /* ZSSundo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSundo@2x.png"; sourceTree = "<group>"; };
+		CF6DB28610F66D4F65927C224F78D6DE /* ZSSunderline.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSunderline.png; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D3BE21D65944221616B4C0B0F3DB1429 /* undo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "undo@2x.png"; sourceTree = "<group>"; };
+		D6FE53FB8C5E2847D579DFE0BEC022A6 /* Pods-SERichTextEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERichTextEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D8EAE5553E20F9262145BFF38CEFF4B2 /* ZSSviewsource.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSviewsource.png; sourceTree = "<group>"; };
+		D925F112260632523D68AE118EFD97B2 /* setUnderline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setUnderline@2x.png"; sourceTree = "<group>"; };
+		D988F30E2E363D81906CA7355AD64B9D /* eea849Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "eea849Selected@2x.png"; sourceTree = "<group>"; };
+		DDD121C93245791B88B7904763EBEBB5 /* ZSSh5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSh5.png; sourceTree = "<group>"; };
+		E09EBFF7D09ED71D9E4B74A0DDFCC01D /* sort@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sort@2x.png"; sourceTree = "<group>"; };
+		E0CEABB02C5415D3AA1E9B0D440BCE49 /* ZSSsuperscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSsuperscript@2x.png"; sourceTree = "<group>"; };
+		E24104CD5D64F83B29A2B8CA51CB3B34 /* setBold@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setBold@2x.png"; sourceTree = "<group>"; };
+		E4211357BB7727F702EEBF0BFE02EBEA /* alignCenterSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignCenterSelected@2x.png"; sourceTree = "<group>"; };
+		E607C85E8623D324D2B19BDB92A71E45 /* ZSSunlink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSunlink.png; sourceTree = "<group>"; };
+		E74FC23B8DB55888EEAB12970E826601 /* Pods_SERichTextEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SERichTextEditor_Example.framework; path = "Pods-SERichTextEditor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B70DE0A3A68E55F69F2BD11A7EBFE2 /* fontSizeSmall@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeSmall@2x.png"; sourceTree = "<group>"; };
+		E9C988DC388E9326D4A7265B61D8C926 /* fontSizeNomalSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeNomalSelected@2x.png"; sourceTree = "<group>"; };
+		EA71E6AF711C87B6B0BDEA78D0576845 /* ZSSBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZSSBarButtonItem.m; sourceTree = "<group>"; };
+		EFB1EEECF15B1410400E8FE36EB8CE6C /* HRColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		F0517C44EFA123A6048F20CED5FF7635 /* Pods-SERichTextEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SERichTextEditor_Tests.modulemap"; sourceTree = "<group>"; };
+		F220B59972C61DE0BA5F24A7DF3FCE1C /* ZSSstrikethrough@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSstrikethrough@2x.png"; sourceTree = "<group>"; };
+		F2D2227B95C99ED37308154A8F40ECBB /* jQuery.js */ = {isa = PBXFileReference; includeInIndex = 1; path = jQuery.js; sourceTree = "<group>"; };
+		F313E9B067C3C8D050033A4D419883E7 /* ASPopoverOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASPopoverOption.m; sourceTree = "<group>"; };
+		F399D34B03B7371EF266D7CD365C7640 /* toolBarBg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toolBarBg.png; sourceTree = "<group>"; };
+		F49FEF20647C5C1674FDFB71D4436134 /* alignRightSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alignRightSelected@2x.png"; sourceTree = "<group>"; };
+		F59347928E39DEE6AAE94EC63F0575E8 /* ZSSh1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSh1@2x.png"; sourceTree = "<group>"; };
+		F89529925BC5715CBF748C01E30EC398 /* ZSSundo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSundo.png; sourceTree = "<group>"; };
+		F8BD7428FF6E21C0E760808EF3FA6CD5 /* ZSStable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSStable.png; sourceTree = "<group>"; };
+		F904871227F4DF4EFBC5EF28E0A8A95B /* ZSSpicker.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSpicker.png; sourceTree = "<group>"; };
+		F990CDEC7D8455C56F6F8F2525D1EFCD /* Pods-SERichTextEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SERichTextEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA73F94DE74C6F3E2643B61BAEC59ED0 /* fontSizeSmallSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSizeSmallSelected@2x.png"; sourceTree = "<group>"; };
+		FBAFC1DFAE1BB4067EE36829C09CEE0E /* setBoldSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "setBoldSelected@2x.png"; sourceTree = "<group>"; };
+		FBFC1BE354756D9D432277CD1A06ED1B /* HRColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
+		FC65C5165F6E3C20042124C19724FFBA /* Pods-SERichTextEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SERichTextEditor_Example-umbrella.h"; sourceTree = "<group>"; };
+		FD7249BF49F78DFC10B0FF7B1F69DE12 /* ZSSoutdent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ZSSoutdent.png; sourceTree = "<group>"; };
+		FEC7D4A0C4BB252B6797D650DDAD00D9 /* ZSSfonts@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ZSSfonts@2x.png"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B54A0A4B89B42C570F3D18690BB8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3126C789D256D4F8FBCF2B107F5C5698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0E245D13F999FDAD1472C230C79741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BA8E104B87C0C872A2BEF751C20E3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707F842202D7E80B06C66685EED21D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D8D5C54286C250AD1F30CE847C7D65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94F1F52A728EF7D4CE1BF26906B1992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D247573D69E58403C8177CC7154AD0D /* Pods-SERichTextEditor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84FE68BD57EAC20A7AA62CCDA189D26D /* Pods-SERichTextEditor_Example.modulemap */,
+				2FAEB4CF94F5DF087CB54D0E23F7738A /* Pods-SERichTextEditor_Example-acknowledgements.markdown */,
+				57BF93D37DDB73F085DC7D2BC584B07E /* Pods-SERichTextEditor_Example-acknowledgements.plist */,
+				C1FA335477BAF0574CCAAF43C1104CC2 /* Pods-SERichTextEditor_Example-dummy.m */,
+				0CFD73428E4EF7D590A078ED6EDCFA96 /* Pods-SERichTextEditor_Example-frameworks.sh */,
+				C6C65A5D33B931690036C54838C7A381 /* Pods-SERichTextEditor_Example-Info.plist */,
+				FC65C5165F6E3C20042124C19724FFBA /* Pods-SERichTextEditor_Example-umbrella.h */,
+				07260FF300C7256ECD8F866ADEC28B2C /* Pods-SERichTextEditor_Example.debug.xcconfig */,
+				F990CDEC7D8455C56F6F8F2525D1EFCD /* Pods-SERichTextEditor_Example.release.xcconfig */,
+			);
+			name = "Pods-SERichTextEditor_Example";
+			path = "Target Support Files/Pods-SERichTextEditor_Example";
+			sourceTree = "<group>";
+		};
+		354B2B45685DEEF3B412ACBFD037E696 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4541B940A72FAF49DEDED7264EA4A873 /* ResourceBundle-SERichTextEditor-SERichTextEditor-Info.plist */,
+				B9486792034C9E075625772405C3B4B5 /* SERichTextEditor.modulemap */,
+				59DA3EC714D31468ABECC10AD1A17419 /* SERichTextEditor-dummy.m */,
+				66F63856C6E0438CCD3391EF0C3E3779 /* SERichTextEditor-Info.plist */,
+				3105A394D2E005BE6B81180B73ADDB92 /* SERichTextEditor-prefix.pch */,
+				3AA3BE99FC5EB3583CE050A4B74CB770 /* SERichTextEditor-umbrella.h */,
+				BAF6A3541002FFDCA8B66DF70C6F5CC8 /* SERichTextEditor.debug.xcconfig */,
+				B68DB51EBD98A15D4BB1509791F8AA5E /* SERichTextEditor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SERichTextEditor";
+			sourceTree = "<group>";
+		};
+		4912D19885858C789707976E05475E2D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				328A943A0BA215CB361D4C36624F85D1 /* 252120@2x.png */,
+				3EA060FB6CC55F285998F4711A869B2C /* 252120Selected@2x.png */,
+				383188C8B5FB61B61A0C4E50619BF34F /* 45c3e9@2x.png */,
+				89F88BAAB51B21DFE76D5597573FDF71 /* 45c3e9Selected@2x.png */,
+				3C8358DF9CBB351F40C9539281020DEF /* 4caf50@2x.png */,
+				82D4BECEEE096F2068438E7B2A90E46F /* 4caf50Selected@2x.png */,
+				5268CECD746633A0F6C9727BF0D9D8D0 /* 817f80@2x.png */,
+				C0A78D028313ACDC2FA38DA6F8B0D636 /* 817f80Selected@2x.png */,
+				7C54D7B478701A6CF4BB793E4258030C /* align@2x.png */,
+				3BB1D791904E766A076B9795B238F03F /* alignCenter@2x.png */,
+				E4211357BB7727F702EEBF0BFE02EBEA /* alignCenterSelected@2x.png */,
+				C57ED0D19F97BCFFEBF8ECB206F2DC2C /* alignLeft@2x.png */,
+				0169D4F54F9628B66213421E5C59887F /* alignLeftSelected@2x.png */,
+				1D69CE858FDF2AABF292841552DA3B5F /* alignRight@2x.png */,
+				F49FEF20647C5C1674FDFB71D4436134 /* alignRightSelected@2x.png */,
+				620E499D3A550570BC8DB2576ED473A3 /* changeFontSize@2x.png */,
+				B7512C038C1BCD95FD9F28D6A2B955A7 /* eea849@2x.png */,
+				D988F30E2E363D81906CA7355AD64B9D /* eea849Selected@2x.png */,
+				1EAFC87641FD621001A1177124CA85E5 /* ff5353@2x.png */,
+				8608C7EF3ABC351EEB60B108031791AE /* ff5353Selected@2x.png */,
+				48A0651517A402527D778810C06F695C /* font@2x.png */,
+				4DACF3B18D2087ABA1023AC2DF4F28C0 /* fontSizeLarge@2x.png */,
+				342567E336DA4D2672F09C1F1671EBAB /* fontSizeLargeSelected@2x.png */,
+				9E73DB73BE9A4FB8D55BBDCEEE9FA51E /* fontSizeNomal@2x.png */,
+				E9C988DC388E9326D4A7265B61D8C926 /* fontSizeNomalSelected@2x.png */,
+				E8B70DE0A3A68E55F69F2BD11A7EBFE2 /* fontSizeSmall@2x.png */,
+				FA73F94DE74C6F3E2643B61BAEC59ED0 /* fontSizeSmallSelected@2x.png */,
+				C4418C5726A49280BC526B6741F4734A /* foreColor@2x.png */,
+				3E7ACFA94AE038684A17EF5F92F0DBB8 /* redo@2x.png */,
+				E24104CD5D64F83B29A2B8CA51CB3B34 /* setBold@2x.png */,
+				FBAFC1DFAE1BB4067EE36829C09CEE0E /* setBoldSelected@2x.png */,
+				4D844475972F0DFF63DA1014006783AD /* setItalic@2x.png */,
+				3AD5F2BE17A30165B48CCF9B949DF301 /* setItalicSelected@2x.png */,
+				2C3048993DACC06AA70CDEF50FF32F35 /* setOrderedList@2x.png */,
+				231FF056B5953390779A5EB4408239BD /* setOrderedListSelected@2x.png */,
+				D925F112260632523D68AE118EFD97B2 /* setUnderline@2x.png */,
+				C9DA39FD3461DA5E9A16F18B3229ED7C /* setUnderlineSelected@2x.png */,
+				B59DF768FFCB732C8AE10319AE51632E /* setUnorderedList@2x.png */,
+				0C3099359A9678408FC697924AED7850 /* setUnorderedListSelected@2x.png */,
+				E09EBFF7D09ED71D9E4B74A0DDFCC01D /* sort@2x.png */,
+				F399D34B03B7371EF266D7CD365C7640 /* toolBarBg.png */,
+				D3BE21D65944221616B4C0B0F3DB1429 /* undo@2x.png */,
+				A9CB17FB811F9688B4260CD624AFB343 /* ZSSbgcolor.png */,
+				503009B869801AAD8C544D866ED5BBF5 /* ZSSbgcolor@2x.png */,
+				457436A9194A7738AC54600339D346F6 /* ZSSbold.png */,
+				B356CD67C3442BFF63788D01D17A407E /* ZSSbold@2x.png */,
+				7A4160B08428E30F6785D50213B4BE10 /* ZSScenterjustify.png */,
+				4BF52D1ABBE8A0496912E97924D6466B /* ZSScenterjustify@2x.png */,
+				5F6003287587FC4ED732552EC5AF49F9 /* ZSSclearstyle.png */,
+				C27083BAFF5CCA009B1C280015B7C336 /* ZSSclearstyle@2x.png */,
+				1331C598FD6DBEE4AB997F6E37D27EB5 /* ZSSfonts.png */,
+				FEC7D4A0C4BB252B6797D650DDAD00D9 /* ZSSfonts@2x.png */,
+				78EDC7D02E6CD52BBA99B3100829E046 /* ZSSforcejustify.png */,
+				2F226641D290BF57D9175D20BBB2BBA9 /* ZSSforcejustify@2x.png */,
+				839F450C4B30A5ABA0E3C14FEC305155 /* ZSSh1.png */,
+				F59347928E39DEE6AAE94EC63F0575E8 /* ZSSh1@2x.png */,
+				4623B8C7A14F2650A71308DA5F68B301 /* ZSSh2.png */,
+				54C544107FDFE2F59823AD1910C36B2D /* ZSSh2@2x.png */,
+				863A966125A14541E021E71278D424BC /* ZSSh3.png */,
+				9B1F891873BD0B8DB4A8DBB7C5E33080 /* ZSSh3@2x.png */,
+				7D9425AF2F5686F4AE4D408944B824C9 /* ZSSh4.png */,
+				61FA9549648024B05ECC32C4F1E18F33 /* ZSSh4@2x.png */,
+				DDD121C93245791B88B7904763EBEBB5 /* ZSSh5.png */,
+				0C7EC4CC4DB95F1E2ADA7F7EA766A96B /* ZSSh5@2x.png */,
+				5EAA61D22B6483FB12BA2D17DB1B0A83 /* ZSSh6.png */,
+				85A6E5A1A6C8B7AC7E0D6097633AAE0B /* ZSSh6@2x.png */,
+				53188DFF3E75AF83AD39AC8BB58EF444 /* ZSShorizontalrule.png */,
+				A9EEE564827EDE084E46CA7FDC10B004 /* ZSShorizontalrule@2x.png */,
+				748B318F36C1111E13C20438EFF5507E /* ZSSimage.png */,
+				61F27BA5461B8647A4D7E72B99023C69 /* ZSSimage@2x.png */,
+				0E1C7D03E2892ACD1A761C2BE9BA960C /* ZSSimageDevice.png */,
+				9879DED7DE5E34E5F90D085E3C7871F0 /* ZSSimageDevice@2x.png */,
+				28767CDF154072539FD6A05EB74CFC9A /* ZSSindent.png */,
+				019DCEA5F17F4652CF2969A861B594D6 /* ZSSindent@2x.png */,
+				B67DDB8D22D65C72EB9363648FEAE761 /* ZSSinsertkeyword.png */,
+				C89EF8514884905FB71121B64A2EEA5A /* ZSSinsertkeyword@2x.png */,
+				3CB1E18295D511F404D0C889E3913403 /* ZSSitalic.png */,
+				AE608AE0107F99BF990F325309DA1E7A /* ZSSitalic@2x.png */,
+				055B35770CB2FBD5740E6622F245FC10 /* ZSSkeyboard.png */,
+				7AFC976434CDCA266E9AFEA85F52B376 /* ZSSkeyboard@2x.png */,
+				53504922B6A1B86DA8214D0F7531B69B /* ZSSleftjustify.png */,
+				CB56E96A89B2F1EAC267364AE032FE7B /* ZSSleftjustify@2x.png */,
+				3CBC43AD382B068F091C3E044807ADAC /* ZSSlink.png */,
+				93A61F5BC1BABE3E08BD3C1C04CF06F5 /* ZSSlink@2x.png */,
+				23453289AF103FF16527128D27A83D64 /* ZSSorderedlist.png */,
+				2F5CB62A02433914C7BF88E0630D5C3D /* ZSSorderedlist@2x.png */,
+				FD7249BF49F78DFC10B0FF7B1F69DE12 /* ZSSoutdent.png */,
+				52745E48083178D6848E381E6CCF6F75 /* ZSSoutdent@2x.png */,
+				644DB722C2914FD63FC251EEB8EF78A1 /* ZSSparagraph.png */,
+				A4D4FA84EC71D15DA056989F7F240AD4 /* ZSSparagraph@2x.png */,
+				F904871227F4DF4EFBC5EF28E0A8A95B /* ZSSpicker.png */,
+				9A166F7EBABBAE8BB00F484F3186125E /* ZSSpicker@2x.png */,
+				313865B5D37B696B8776CE63FC7D234C /* ZSSquicklink.png */,
+				A9D4C7D198B6B1D7AC38F7B2D7D74610 /* ZSSquicklink@2x.png */,
+				C5D65E9B57FCDFB60A2F651E4E38F9FC /* ZSSredo.png */,
+				2102885274724492AF5939C5BE9A3E3F /* ZSSredo@2x.png */,
+				685E3EAA51192887478012A88BB5C894 /* ZSSrightjustify.png */,
+				2C79924BF91A7F1EBA49026CE2ECFAA7 /* ZSSrightjustify@2x.png */,
+				71F0FE1CB4434CF7936DCA1CFD908908 /* ZSSstrikethrough.png */,
+				F220B59972C61DE0BA5F24A7DF3FCE1C /* ZSSstrikethrough@2x.png */,
+				CC0BA95C433012481BF25AFAE376728D /* ZSSsubscript.png */,
+				7BE331F3DC968833C442D45F30897763 /* ZSSsubscript@2x.png */,
+				8AE55441968FB0EBDDD24B3AFBFAD35A /* ZSSsuperscript.png */,
+				E0CEABB02C5415D3AA1E9B0D440BCE49 /* ZSSsuperscript@2x.png */,
+				F8BD7428FF6E21C0E760808EF3FA6CD5 /* ZSStable.png */,
+				9B857B97F84719A2A0C8CCB795C87A4F /* ZSStable@2x.png */,
+				40468D736DF7706AFBB58F21B91B8ACA /* ZSStextcolor.png */,
+				85CFC406C6BE7FC03285C34B60B7F4D6 /* ZSStextcolor@2x.png */,
+				CF6DB28610F66D4F65927C224F78D6DE /* ZSSunderline.png */,
+				3A2C4AF90FBF3D3FFBE8FD1BD09801A4 /* ZSSunderline@2x.png */,
+				F89529925BC5715CBF748C01E30EC398 /* ZSSundo.png */,
+				CF0864EC5531CC975D3538B0480B9E95 /* ZSSundo@2x.png */,
+				E607C85E8623D324D2B19BDB92A71E45 /* ZSSunlink.png */,
+				3CF487C7EC44D32ADF10CA6A0DBDF45E /* ZSSunlink@2x.png */,
+				6982F587B29D067F1DE724ECE0DC0FA7 /* ZSSunorderedlist.png */,
+				69181C07BF41D2BECCE9AC82EED6CEC6 /* ZSSunorderedlist@2x.png */,
+				D8EAE5553E20F9262145BFF38CEFF4B2 /* ZSSviewsource.png */,
+				9F4B1F45A7678BEF76659FC27AB4D21B /* ZSSviewsource@2x.png */,
+			);
+			name = Assets;
+			path = SERichTextEditor/Assets;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		52D933DF314B6033AFD868D226A73E32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D247573D69E58403C8177CC7154AD0D /* Pods-SERichTextEditor_Example */,
+				B84A51F4C74E93001CBA0A020FADBC6A /* Pods-SERichTextEditor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		549CFB51DC3F6E1DEAA36B7E93856BEE /* richText */ = {
+			isa = PBXGroup;
+			children = (
+				3BC145F7A3632759ADDB21423E88C73E /* ZSSBarButtonItem.h */,
+				EA71E6AF711C87B6B0BDEA78D0576845 /* ZSSBarButtonItem.m */,
+				B6DA11A313F34BEA27E3F98E4FEAB7C5 /* ZSSFontsViewController.h */,
+				A355A1B02A2635F8B16353796D0C8A94 /* ZSSFontsViewController.m */,
+				6E56F922759F688FADD471A6DB3F56AE /* ZSSRichTextEditor.h */,
+				75BD368EC3AFD555E3311D438BBD244F /* ZSSRichTextEditor.m */,
+				43A665D0578DF1D15F497970D0EBBD2B /* ZSSTextView.h */,
+				109B1B25F1414D5982FBAA0A846915A8 /* ZSSTextView.m */,
+				C4B1452E88589D7A3B568426E19CDD75 /* Third Party */,
+				69341B3C907AD4F28C4CCF2C76853A44 /* webSource */,
+			);
+			name = richText;
+			path = SERichTextEditor/Classes/richText;
+			sourceTree = "<group>";
+		};
+		5AE12F0595F7B3795FCC5431E3B8A462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				E74FC23B8DB55888EEAB12970E826601 /* Pods_SERichTextEditor_Example.framework */,
+				4FDD31DBA193E9BABA7A7EFCEA8D8D96 /* Pods_SERichTextEditor_Tests.framework */,
+				2102E606EF9B3F855F1C53FA272C90D4 /* SERichTextEditor.bundle */,
+				000078B5AA5E362DC09AEA157EDEF4A7 /* SERichTextEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69341B3C907AD4F28C4CCF2C76853A44 /* webSource */ = {
+			isa = PBXGroup;
+			children = (
+				2393813B46FE4FD57246BFDABB8CAF71 /* editor.html */,
+				F2D2227B95C99ED37308154A8F40ECBB /* jQuery.js */,
+				36F7580656935B662E4695A398D7A39A /* JSBeautifier.js */,
+				2941377E1829DF3F67E1C4BDCDF9DD24 /* ZSSRichTextEditor.js */,
+			);
+			name = webSource;
+			path = webSource;
+			sourceTree = "<group>";
+		};
+		795B2118F0A9747009ACF98953350081 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4912D19885858C789707976E05475E2D /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C1D930D05A869862D94F5B6955FBC51 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5C1B0DB12336BABE0E53958FD393F82 /* LICENSE */,
+				277DEEF6973FD2A46FEEC85910F6774E /* README.md */,
+				41EC5CD4429875FF93F5AB80A7891CE8 /* SERichTextEditor.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		B84A51F4C74E93001CBA0A020FADBC6A /* Pods-SERichTextEditor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0517C44EFA123A6048F20CED5FF7635 /* Pods-SERichTextEditor_Tests.modulemap */,
+				04C52F6B188040B4DDB0C4FBF5E569C7 /* Pods-SERichTextEditor_Tests-acknowledgements.markdown */,
+				857FFC64E085792ECC622B0AD051E4DD /* Pods-SERichTextEditor_Tests-acknowledgements.plist */,
+				0F18F8EF140EC5F6D73A3D6CA9E82FB7 /* Pods-SERichTextEditor_Tests-dummy.m */,
+				792C7E31B8F6FF69C45926B24D8DE482 /* Pods-SERichTextEditor_Tests-frameworks.sh */,
+				5F534EF2A24EBB4DDFB06EB9549C4AB4 /* Pods-SERichTextEditor_Tests-Info.plist */,
+				99924357215C8919AB4DA0A0254A140D /* Pods-SERichTextEditor_Tests-umbrella.h */,
+				D6FE53FB8C5E2847D579DFE0BEC022A6 /* Pods-SERichTextEditor_Tests.debug.xcconfig */,
+				7A2AB9F23E843617F88073D3C4EFC8D1 /* Pods-SERichTextEditor_Tests.release.xcconfig */,
+			);
+			name = "Pods-SERichTextEditor_Tests";
+			path = "Target Support Files/Pods-SERichTextEditor_Tests";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BF74A241C2681EE464D2DA0A0AA3BF57 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9A41E54ECEEFC424877CF9BF5AA737D /* SERichTextEditor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4B1452E88589D7A3B568426E19CDD75 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				7D8340DD1FCD20ACAD9742718B9F7D17 /* CYRLayoutManager.h */,
+				A367685D9B193E9C231BA6650CF844AA /* CYRLayoutManager.m */,
+				2651EDE26181A40DC9A40F69E0A32C97 /* CYRTextStorage.h */,
+				CA89CC49642414E14C132DC557CAAF61 /* CYRTextStorage.m */,
+				8EB09A1ED3AE68C5B6F4EC957A41C523 /* CYRTextView.h */,
+				049D2FC6F4E3217642A9B58E47F94EF7 /* CYRTextView.m */,
+				67176E0A565074DC51D175C4B0C3F22B /* CYRToken.h */,
+				239531D3B1B732C8609258CBDFCB05D7 /* CYRToken.m */,
+				8078A1B36A736B1F2799730B3481CCDB /* HRBrightnessCursor.h */,
+				8DDE3BC1CF1BD0D5B91769AC9B8CDBEF /* HRBrightnessCursor.m */,
+				48D770B4D33B0F7E669626928C79BDC3 /* HRCgUtil.h */,
+				A1D4FA68BBAEE534754691D53256CF34 /* HRCgUtil.m */,
+				9B95EC1FB91A36336F38C97E0D8CE8A8 /* HRColorCursor.h */,
+				0E157A17F8AF2942F97CBF323D314917 /* HRColorCursor.m */,
+				747DB85EC1D3F1FFCD5E1D8E19B0BABB /* HRColorPickerMacros.h */,
+				A045840FC72A24574A8A0A1CFDA6C2A4 /* HRColorPickerView.h */,
+				EFB1EEECF15B1410400E8FE36EB8CE6C /* HRColorPickerView.m */,
+				36CB10D4CF6C1C9991D7F947583F96A1 /* HRColorPickerViewController.h */,
+				FBFC1BE354756D9D432277CD1A06ED1B /* HRColorPickerViewController.m */,
+				17876E74A26F1563B9D5603CB69DF7B6 /* HRColorUtil.h */,
+				196010C38945A6A5E272F5439DAECEC4 /* HRColorUtil.m */,
+			);
+			name = "Third Party";
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		C9A41E54ECEEFC424877CF9BF5AA737D /* SERichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE94EEEB4942E0C48AABF635E8579C /* controller */,
+				7C1D930D05A869862D94F5B6955FBC51 /* Pod */,
+				CE8D57F6093507C2BEE84F61056A5C72 /* popoverView */,
+				795B2118F0A9747009ACF98953350081 /* Resources */,
+				549CFB51DC3F6E1DEAA36B7E93856BEE /* richText */,
+				354B2B45685DEEF3B412ACBFD037E696 /* Support Files */,
+			);
+			name = SERichTextEditor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE8D57F6093507C2BEE84F61056A5C72 /* popoverView */ = {
+			isa = PBXGroup;
+			children = (
+				1C39DA38EA831497A7C8284345BD1F2C /* ASPopover.h */,
+				7B0B7A7E74685208433A0A7EA6A00D53 /* ASPopover.m */,
+				3449457A0EDAC05946556BE984D236D1 /* ASPopoverOption.h */,
+				F313E9B067C3C8D050033A4D419883E7 /* ASPopoverOption.m */,
+			);
+			name = popoverView;
+			path = SERichTextEditor/Classes/popoverView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BF74A241C2681EE464D2DA0A0AA3BF57 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				5AE12F0595F7B3795FCC5431E3B8A462 /* Products */,
+				52D933DF314B6033AFD868D226A73E32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2BE94EEEB4942E0C48AABF635E8579C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A596A15CA09180571738BB49D62B7EA7 /* SEExport.h */,
+				0F0B1ADE6C128E1B92BF7567ADCB5C95 /* SERichTextEditorViewController.h */,
+				5260CDCB43BC8F1AEFBD0BB5122D0488 /* SERichTextEditorViewController.m */,
+			);
+			name = controller;
+			path = SERichTextEditor/Classes/controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		097525D9E98101FD9EE3E04449D2D34E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F67C73D5E975A877596EFA905FAB0CD /* Pods-SERichTextEditor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7B8B5DED87BFEB2105C104715D147D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9957B5FF59D0C7DE8D17BF702D9FEDB /* Pods-SERichTextEditor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857E5F8FDC9D20A8349E5D5899DA8698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558C409340F03D8ED92E3F2FF530B3A2 /* ASPopover.h in Headers */,
+				16242E0D30196314E91EC5125BAC6BDC /* ASPopoverOption.h in Headers */,
+				5A33C046A4B6C8109F5FEE8EB3BBA573 /* CYRLayoutManager.h in Headers */,
+				26ECBDBA80CBB12A438962A8F8EC2D4C /* CYRTextStorage.h in Headers */,
+				356BDCEC23191A5234270D38560AB0B8 /* CYRTextView.h in Headers */,
+				7F9B146206B3B90A63DA22A5F1543290 /* CYRToken.h in Headers */,
+				2ECCF6C94AE82A3593AD215AD5D4CD92 /* HRBrightnessCursor.h in Headers */,
+				04C7051CA32381008308D8E5E7D19D00 /* HRCgUtil.h in Headers */,
+				391AB7FFE3F8820962D43A895D888F5E /* HRColorCursor.h in Headers */,
+				BB910D8DBD1596499E2B03FCA4E82761 /* HRColorPickerMacros.h in Headers */,
+				ABD4238F7FCAA6B68527F3450AE5CF98 /* HRColorPickerView.h in Headers */,
+				F97E16D7E943A82FD9B3AB3CE40E6C9B /* HRColorPickerViewController.h in Headers */,
+				D011E4C57D6F842538B870C5C4C9F204 /* HRColorUtil.h in Headers */,
+				5DDC6B5A4496AD4FA523362CA569D38C /* SEExport.h in Headers */,
+				A4AF6D3D1F492569105318007347E893 /* SERichTextEditor-umbrella.h in Headers */,
+				D1B8BCE16B1FC0B30BC9AB3F187FAF8A /* SERichTextEditorViewController.h in Headers */,
+				A4E37E39CFA81D3F9F10DAE42A4054CB /* ZSSBarButtonItem.h in Headers */,
+				C1FD347010FE005E253DF37EE68A0411 /* ZSSFontsViewController.h in Headers */,
+				5BCDB2BFA0468D29E7DAD30644907BAA /* ZSSRichTextEditor.h in Headers */,
+				DB75DDA994781D106A8765FCFCF7279F /* ZSSTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0598191AAA4CD06B809FA7C7A606EB61 /* SERichTextEditor-SERichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB0666CEDB85BD8357D34F123FDBA1B /* Build configuration list for PBXNativeTarget "SERichTextEditor-SERichTextEditor" */;
+			buildPhases = (
+				3CEBC127C20CAB1465FEFE557E32D302 /* Sources */,
+				D94F1F52A728EF7D4CE1BF26906B1992 /* Frameworks */,
+				2C8343AF56894319D68F6B7E72BDD964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SERichTextEditor-SERichTextEditor";
+			productName = "SERichTextEditor-SERichTextEditor";
+			productReference = 2102E606EF9B3F855F1C53FA272C90D4 /* SERichTextEditor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2C9E19372987E463595B028CCF676D3 /* Pods-SERichTextEditor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66751AB28DC0C99D86B86A81F6D99D4F /* Build configuration list for PBXNativeTarget "Pods-SERichTextEditor_Tests" */;
+			buildPhases = (
+				5E7B8B5DED87BFEB2105C104715D147D /* Headers */,
+				074FD4678403C278AD6D600CDF6D33EB /* Sources */,
+				707F842202D7E80B06C66685EED21D1F /* Frameworks */,
+				8DA37ACBF6B4E96C16ACBD43D7B16968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B05FAEBC63DF9873938743EEF48CFCFA /* PBXTargetDependency */,
+				D3FCEBA564C35347F7C8047F90342B70 /* PBXTargetDependency */,
+			);
+			name = "Pods-SERichTextEditor_Tests";
+			productName = "Pods-SERichTextEditor_Tests";
+			productReference = 4FDD31DBA193E9BABA7A7EFCEA8D8D96 /* Pods_SERichTextEditor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E573CAECD35ED0BECEAF2DB5530C76 /* Pods-SERichTextEditor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A243F56CB3838E139C257D77BD117B6 /* Build configuration list for PBXNativeTarget "Pods-SERichTextEditor_Example" */;
+			buildPhases = (
+				097525D9E98101FD9EE3E04449D2D34E /* Headers */,
+				06F49C12193F6FCE6E14F73C3AB76DB7 /* Sources */,
+				6C0E245D13F999FDAD1472C230C79741 /* Frameworks */,
+				69B3EB3A1CF5528131F1786E20CE09A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA9B25C3744A8BF770246C47277154B /* PBXTargetDependency */,
+			);
+			name = "Pods-SERichTextEditor_Example";
+			productName = "Pods-SERichTextEditor_Example";
+			productReference = E74FC23B8DB55888EEAB12970E826601 /* Pods_SERichTextEditor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9C57B222BFE847B1519958620B04C3A /* SERichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD300EF5C5B909AB4CD8626C27FCC551 /* Build configuration list for PBXNativeTarget "SERichTextEditor" */;
+			buildPhases = (
+				857E5F8FDC9D20A8349E5D5899DA8698 /* Headers */,
+				D818203E34FB0499C43F49E92B731AAB /* Sources */,
+				44B54A0A4B89B42C570F3D18690BB8D7 /* Frameworks */,
+				0C6D91CFAB2737EFEAFBC3FE4A9B782C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D64E3668AA14A93C024C24DC1ECB7ED /* PBXTargetDependency */,
+			);
+			name = SERichTextEditor;
+			productName = SERichTextEditor;
+			productReference = 000078B5AA5E362DC09AEA157EDEF4A7 /* SERichTextEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5AE12F0595F7B3795FCC5431E3B8A462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				D8E573CAECD35ED0BECEAF2DB5530C76 /* Pods-SERichTextEditor_Example */,
+				B2C9E19372987E463595B028CCF676D3 /* Pods-SERichTextEditor_Tests */,
+				E9C57B222BFE847B1519958620B04C3A /* SERichTextEditor */,
+				0598191AAA4CD06B809FA7C7A606EB61 /* SERichTextEditor-SERichTextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6D91CFAB2737EFEAFBC3FE4A9B782C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCFC0E6CB9FDDA80CAC79C8044D679C /* SERichTextEditor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8343AF56894319D68F6B7E72BDD964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE3B2A1A011DC55C2246613F4B1165E /* 252120@2x.png in Resources */,
+				3B98BC6B77F38BAE6BAB8F21CD0FE44B /* 252120Selected@2x.png in Resources */,
+				30B7021C89F3B588B92EFE5F737DCF21 /* 45c3e9@2x.png in Resources */,
+				7064159CA6093F6F4C9D94CD5A2BCBBD /* 45c3e9Selected@2x.png in Resources */,
+				69B97BA7D83E9667F533869A3DC5C315 /* 4caf50@2x.png in Resources */,
+				21527CD20B703F421E546CDBCEE62AD5 /* 4caf50Selected@2x.png in Resources */,
+				A062244782D4E21C5A03B03CA5B97D33 /* 817f80@2x.png in Resources */,
+				F997D72DD69BEC607F8ED9A65A0958F6 /* 817f80Selected@2x.png in Resources */,
+				006616338AFAF629F2C760B3906D5BFD /* align@2x.png in Resources */,
+				FC7DAE8BAA5B1D7D44B88D9CC490DC5E /* alignCenter@2x.png in Resources */,
+				9F908F868F9BC6940963AB2DFE9F7092 /* alignCenterSelected@2x.png in Resources */,
+				3C425EF680F6838415CF9A7001B2EA6F /* alignLeft@2x.png in Resources */,
+				49CD0B581A354D9BF39AC206EAB10D41 /* alignLeftSelected@2x.png in Resources */,
+				11C158B88C7CA5868DCCE406A861F65B /* alignRight@2x.png in Resources */,
+				CB244D06B88F8068BEA07BD79770845D /* alignRightSelected@2x.png in Resources */,
+				233A588201BA9A394526C77A61DC5B47 /* changeFontSize@2x.png in Resources */,
+				6837F3E21FC6F09EED8B24B0BAEBA667 /* editor.html in Resources */,
+				8073C85C4A6EFBC45EA44EC6448178AF /* eea849@2x.png in Resources */,
+				086A37AB9D21CB39F4E2182629664F7D /* eea849Selected@2x.png in Resources */,
+				40D499BDA3619E8CDDA8A40BDBAC3159 /* ff5353@2x.png in Resources */,
+				3E67B605EEAA51D9530C1EB180336947 /* ff5353Selected@2x.png in Resources */,
+				E2D154B1446EC027965A71179BC2A4C8 /* font@2x.png in Resources */,
+				72CA71EAE1A18C6BA4DE324A8978924D /* fontSizeLarge@2x.png in Resources */,
+				1141BB717D476629F235AE14B0D36856 /* fontSizeLargeSelected@2x.png in Resources */,
+				6228BB5BCCB936814ADE39FB668FA0F7 /* fontSizeNomal@2x.png in Resources */,
+				C5470F9A8F2912E46D1F64E6D364C0AA /* fontSizeNomalSelected@2x.png in Resources */,
+				57898F4F8F1A47D575D615931462C34E /* fontSizeSmall@2x.png in Resources */,
+				0B3C241448D9D20A5E1F8C7A2FA3464C /* fontSizeSmallSelected@2x.png in Resources */,
+				802053E4638776828241A4419B7AFC67 /* foreColor@2x.png in Resources */,
+				5AD9E23F21F01F7EAE9CA4221E8C2DEB /* jQuery.js in Resources */,
+				E1F0C8A5E81F99D0B37DEED35B71D6EC /* JSBeautifier.js in Resources */,
+				D5482799D3B68F13192B6E72B6955F9B /* redo@2x.png in Resources */,
+				C34210123804B46FCB7FBEBB290FB2EB /* setBold@2x.png in Resources */,
+				FD6FD00CA8FFB15D3D1CE5BDBD49625B /* setBoldSelected@2x.png in Resources */,
+				DFCE1A275E9BA8BF40EE33E68F93854D /* setItalic@2x.png in Resources */,
+				8254D19BE759D38CBA5A18F17B8E7A11 /* setItalicSelected@2x.png in Resources */,
+				36AA8D08EBD86C41077F1FD654D747D5 /* setOrderedList@2x.png in Resources */,
+				65E8DB3740B8EA52758612AB6E8CDA4A /* setOrderedListSelected@2x.png in Resources */,
+				E3E506496E41549C689DD2E502C76E7C /* setUnderline@2x.png in Resources */,
+				5F591D67B3DC44331E0F0444A4EBDC6A /* setUnderlineSelected@2x.png in Resources */,
+				88258201230C5561970A39FB25552EC7 /* setUnorderedList@2x.png in Resources */,
+				E61A1739809BA7C0745ED8EA3E137219 /* setUnorderedListSelected@2x.png in Resources */,
+				A2A1848F5244036072947C86640BDEA2 /* sort@2x.png in Resources */,
+				D8574EACD0791B354EDD24ECF9518364 /* toolBarBg.png in Resources */,
+				FF68C1B37D24D0BC593629A27836FF57 /* undo@2x.png in Resources */,
+				581A7EB99011A84964B6769EF070030A /* ZSSbgcolor.png in Resources */,
+				DBBEEB608EF72E6A2B6EDA141ED35697 /* ZSSbgcolor@2x.png in Resources */,
+				3D29C2FD792A12B590EA527D39034346 /* ZSSbold.png in Resources */,
+				3F7411A70A9A12B7A5CBA3917E15F15F /* ZSSbold@2x.png in Resources */,
+				BB5454022F663C587CE2705A2C2E1AFF /* ZSScenterjustify.png in Resources */,
+				7B7CFD95253D45B5F58D4561FE41DC40 /* ZSScenterjustify@2x.png in Resources */,
+				87558E1D5198325942CC553E9DDFC1D4 /* ZSSclearstyle.png in Resources */,
+				EDEBF3C33780185A0E8B336DB7661A39 /* ZSSclearstyle@2x.png in Resources */,
+				71583AE489DB03D8C2E9CE3DCF2C15D2 /* ZSSfonts.png in Resources */,
+				74248B96A2A7DA4757BA97ABDF2F1199 /* ZSSfonts@2x.png in Resources */,
+				2C7CE1E3042F68B31CE1BD220D02A1DF /* ZSSforcejustify.png in Resources */,
+				FC4FB8FD0E210C30740255E7AD5AB278 /* ZSSforcejustify@2x.png in Resources */,
+				4BBFED324B526B90E6408154D2AABB91 /* ZSSh1.png in Resources */,
+				7C5A469989051A063DE5483525007667 /* ZSSh1@2x.png in Resources */,
+				48B701A44B2416BF62E8F1DD897391BE /* ZSSh2.png in Resources */,
+				168822626F99E440F3C585ADD6547BF3 /* ZSSh2@2x.png in Resources */,
+				2F814ADB0F6845FDF38EEB18FA0DD3E9 /* ZSSh3.png in Resources */,
+				A34FA8F5610AA8CDB8B49891FC4B975E /* ZSSh3@2x.png in Resources */,
+				759BE82BC2210AC9AC22D309A3D2C28C /* ZSSh4.png in Resources */,
+				05D75D331CFC44E902472A0876884550 /* ZSSh4@2x.png in Resources */,
+				171F0E6D6A6D8B90AA4D4EEA06D30605 /* ZSSh5.png in Resources */,
+				D1C9EBB4B23B21403B73DD00FC315EB1 /* ZSSh5@2x.png in Resources */,
+				C9336E46742DEA7DE36B61F5BCD21A28 /* ZSSh6.png in Resources */,
+				4BC6C82E78F780F033A94C17B6802775 /* ZSSh6@2x.png in Resources */,
+				157CBEFEE67FCE540BBB2FE87D04141A /* ZSShorizontalrule.png in Resources */,
+				15D52DD1A1069DF38CFE6E67C71FFE6D /* ZSShorizontalrule@2x.png in Resources */,
+				457D794D904CE6AB11428B7E7E336D93 /* ZSSimage.png in Resources */,
+				EC4F14D1A92A90054D6F6E39A3A37746 /* ZSSimage@2x.png in Resources */,
+				C5C03078A6454D5AAD18E49DD3358AAC /* ZSSimageDevice.png in Resources */,
+				48A828D551E410CB31EC537EC8913733 /* ZSSimageDevice@2x.png in Resources */,
+				DA5F37C230A1C0E4F9C0AF114793990C /* ZSSindent.png in Resources */,
+				68A7CB58AAB549B0D5984D3E535125CE /* ZSSindent@2x.png in Resources */,
+				B7AAAF53EB8F2BA471176813779AA3B0 /* ZSSinsertkeyword.png in Resources */,
+				864FB06D7D57089135449D71D427538C /* ZSSinsertkeyword@2x.png in Resources */,
+				8E69ECD3AC578BFA67BD87B04E54635B /* ZSSitalic.png in Resources */,
+				3019825B34758F9873169031795D1D5D /* ZSSitalic@2x.png in Resources */,
+				3187F55A6113B3A77C0BBDF524672F97 /* ZSSkeyboard.png in Resources */,
+				53AF8C0A81694422F88A0DC90F041A5A /* ZSSkeyboard@2x.png in Resources */,
+				4C49237904660F1215845D45697AB0CD /* ZSSleftjustify.png in Resources */,
+				6FE6364C405CA3B7641560ED25ECD6EE /* ZSSleftjustify@2x.png in Resources */,
+				D129C91179BF4FC91E9CD899ECD3147D /* ZSSlink.png in Resources */,
+				414A679672733B779A7304882CEB739F /* ZSSlink@2x.png in Resources */,
+				3FFFDB7113EF1C10BC66F1210BC44D68 /* ZSSorderedlist.png in Resources */,
+				59278F69E98B088F607196048EB205B8 /* ZSSorderedlist@2x.png in Resources */,
+				DBEBEE63E1F643E732CE0F600854E916 /* ZSSoutdent.png in Resources */,
+				870BCA04DB09DEAE229F5136445C8534 /* ZSSoutdent@2x.png in Resources */,
+				1010F42D96CFB03A157ED478EFE33710 /* ZSSparagraph.png in Resources */,
+				E36BF03C5E13D35D0F9A7F32051650C5 /* ZSSparagraph@2x.png in Resources */,
+				0C72B2C2DB06602CDD5014D1021389C3 /* ZSSpicker.png in Resources */,
+				18F1C574640C86B4B2B5A063DB450D3F /* ZSSpicker@2x.png in Resources */,
+				F76BE274F11198607B13BDD98AB8A862 /* ZSSquicklink.png in Resources */,
+				E3273891B2DC8460E25125687A6BF5BB /* ZSSquicklink@2x.png in Resources */,
+				78C6E5E5B6A50AD8CFBC7BFECD9197C2 /* ZSSredo.png in Resources */,
+				036DF7008DD135BAB2FE0E151602B5C7 /* ZSSredo@2x.png in Resources */,
+				52DF7C6532123B6041B25BE7E29EDC65 /* ZSSRichTextEditor.js in Resources */,
+				F4A2822452E419E906FB35F2ECE58E58 /* ZSSrightjustify.png in Resources */,
+				6D07B8426122DEDEF3E4DDE171305FAF /* ZSSrightjustify@2x.png in Resources */,
+				CBA772C3366DD420C37E41AFD44FB7FB /* ZSSstrikethrough.png in Resources */,
+				EC859FB191C3C46828FF9A7437BEF574 /* ZSSstrikethrough@2x.png in Resources */,
+				94DD6623E5EB07283BB0068607C06570 /* ZSSsubscript.png in Resources */,
+				35A039E2D71BCAA1ED5A2BEEA4FB9D06 /* ZSSsubscript@2x.png in Resources */,
+				835426F2694E8CC3BD962851CC4BB204 /* ZSSsuperscript.png in Resources */,
+				C849A330F4DEF265D544026B0EA7CE43 /* ZSSsuperscript@2x.png in Resources */,
+				D463DF759691F2DE08564F0F192A71EC /* ZSStable.png in Resources */,
+				EF3C9DBBBBD7DFC6274F1412C45862F2 /* ZSStable@2x.png in Resources */,
+				CBC3CE9838634D59FF5C6CA73CF99BAE /* ZSStextcolor.png in Resources */,
+				E9C9C174B87C9A9A836A504BB04D53E5 /* ZSStextcolor@2x.png in Resources */,
+				5A9D98A7A5E0341AC800A76486D3F0E3 /* ZSSunderline.png in Resources */,
+				DEB99B91BD80340D3079CB1D07F5C8CF /* ZSSunderline@2x.png in Resources */,
+				64EFE2E0B63891CDF2AE25651AD07E03 /* ZSSundo.png in Resources */,
+				02CE91D84A1757DA42B6392896A27833 /* ZSSundo@2x.png in Resources */,
+				6D261F144118189F4687B1340FBCC4D6 /* ZSSunlink.png in Resources */,
+				E5D14216465052CEBCEFD42CA2DF6B15 /* ZSSunlink@2x.png in Resources */,
+				2EC21C5EF8AF1E8114459ED795CA1A35 /* ZSSunorderedlist.png in Resources */,
+				3ECD8E6FB53991728BFD712BAA41E3D8 /* ZSSunorderedlist@2x.png in Resources */,
+				F664D61FED5DED4E138F1DBD737A0BA0 /* ZSSviewsource.png in Resources */,
+				DCB008274DFFD4788DFFE199F932F3A9 /* ZSSviewsource@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B3EB3A1CF5528131F1786E20CE09A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA37ACBF6B4E96C16ACBD43D7B16968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F49C12193F6FCE6E14F73C3AB76DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72CF5C5BBEB2C116F4BC344A222C71B /* Pods-SERichTextEditor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074FD4678403C278AD6D600CDF6D33EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6E24EBAF23491DC63F206B7D9DCC92 /* Pods-SERichTextEditor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEBC127C20CAB1465FEFE557E32D302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D818203E34FB0499C43F49E92B731AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C22A8F212BF821B550011448717B83B /* ASPopover.m in Sources */,
+				0B9384E1CEB6FB7118730FC79A1652A9 /* ASPopoverOption.m in Sources */,
+				9570DEAA34CF2D09FFAEF27487872D4A /* CYRLayoutManager.m in Sources */,
+				D95F20C49596C116313DBB00F2CB154A /* CYRTextStorage.m in Sources */,
+				55D4BDBDBF0082367C2BE2433D6F7E16 /* CYRTextView.m in Sources */,
+				FBF03A82D329FBD1EAE5A11282CF9EFA /* CYRToken.m in Sources */,
+				7D5912E2E52755B85081A9682D3D4448 /* editor.html in Sources */,
+				F0CE2AF427641B611D702ED929C3E032 /* HRBrightnessCursor.m in Sources */,
+				FADD6E6BD19CE7825D87CF0A5375F7C3 /* HRCgUtil.m in Sources */,
+				3B71EAE9054074D2C25629364EDE4022 /* HRColorCursor.m in Sources */,
+				71A1B58CDA9184472CDA3A1911CDDD95 /* HRColorPickerView.m in Sources */,
+				A37D6DE0A9D399BA7D42C36FF8971C38 /* HRColorPickerViewController.m in Sources */,
+				1A4CF14BA74EAA153E10DD981D485641 /* HRColorUtil.m in Sources */,
+				C68E291B3FB718E930B0D3E75D16BBFC /* jQuery.js in Sources */,
+				BEE324B8901BDAC90A944FEFA2FDE93C /* JSBeautifier.js in Sources */,
+				76F6DB4438431E2BEB415D9ED1DC3E89 /* SERichTextEditor-dummy.m in Sources */,
+				30459F9C813F5F20ED605D15750C760D /* SERichTextEditorViewController.m in Sources */,
+				D03AC432BE9A9021D78A76B1D54F83A1 /* ZSSBarButtonItem.m in Sources */,
+				033F7F32F10ABF05DD7FFF379094D4B7 /* ZSSFontsViewController.m in Sources */,
+				C71BC11E39F339A7CC960C224C11B16E /* ZSSRichTextEditor.js in Sources */,
+				C176E02DEAE6066E1AB7C6F210972B65 /* ZSSRichTextEditor.m in Sources */,
+				CECED293E9F4D2A5441B45C7389459F5 /* ZSSTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D64E3668AA14A93C024C24DC1ECB7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SERichTextEditor-SERichTextEditor";
+			target = 0598191AAA4CD06B809FA7C7A606EB61 /* SERichTextEditor-SERichTextEditor */;
+			targetProxy = 115220B891268572A0CA5FA54626E29F /* PBXContainerItemProxy */;
+		};
+		B05FAEBC63DF9873938743EEF48CFCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 9ADBCBF2A253FB736976894DF6D87626 /* PBXContainerItemProxy */;
+		};
+		CDA9B25C3744A8BF770246C47277154B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SERichTextEditor;
+			target = E9C57B222BFE847B1519958620B04C3A /* SERichTextEditor */;
+			targetProxy = FD971C6A93ECACE2683F5027CF284056 /* PBXContainerItemProxy */;
+		};
+		D3FCEBA564C35347F7C8047F90342B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SERichTextEditor_Example";
+			target = D8E573CAECD35ED0BECEAF2DB5530C76 /* Pods-SERichTextEditor_Example */;
+			targetProxy = B1573EBA6080CAEC1D0EC11DA14136D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16A18CACD9753FD94C4C1E471F80228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F990CDEC7D8455C56F6F8F2525D1EFCD /* Pods-SERichTextEditor_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERichTextEditor_Example/Pods-SERichTextEditor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERichTextEditor_Example/Pods-SERichTextEditor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1947FE209936640D22740AE8D8CCB458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF6A3541002FFDCA8B66DF70C6F5CC8 /* SERichTextEditor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SERichTextEditor";
+				IBSC_MODULE = SERichTextEditor;
+				INFOPLIST_FILE = "Target Support Files/SERichTextEditor/ResourceBundle-SERichTextEditor-SERichTextEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SERichTextEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		34B0F8CFB0BAB41CC9DBD40A633BA8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FE53FB8C5E2847D579DFE0BEC022A6 /* Pods-SERichTextEditor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERichTextEditor_Tests/Pods-SERichTextEditor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERichTextEditor_Tests/Pods-SERichTextEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D71EF488E47EB47782E292363CBFD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF6A3541002FFDCA8B66DF70C6F5CC8 /* SERichTextEditor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SERichTextEditor/SERichTextEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SERichTextEditor/SERichTextEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SERichTextEditor/SERichTextEditor.modulemap";
+				PRODUCT_MODULE_NAME = SERichTextEditor;
+				PRODUCT_NAME = SERichTextEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6940CB792F40EC0D9EE539F554A87EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07260FF300C7256ECD8F866ADEC28B2C /* Pods-SERichTextEditor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERichTextEditor_Example/Pods-SERichTextEditor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERichTextEditor_Example/Pods-SERichTextEditor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B84AE4641E1BCA6F2F951065E53C5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2AB9F23E843617F88073D3C4EFC8D1 /* Pods-SERichTextEditor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SERichTextEditor_Tests/Pods-SERichTextEditor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SERichTextEditor_Tests/Pods-SERichTextEditor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7EBF79E6B073A1EAA893CF0FAC859E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68DB51EBD98A15D4BB1509791F8AA5E /* SERichTextEditor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SERichTextEditor";
+				IBSC_MODULE = SERichTextEditor;
+				INFOPLIST_FILE = "Target Support Files/SERichTextEditor/ResourceBundle-SERichTextEditor-SERichTextEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SERichTextEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DF0519C84A749DFCA8C9AEB47DFDDBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68DB51EBD98A15D4BB1509791F8AA5E /* SERichTextEditor.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SERichTextEditor/SERichTextEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SERichTextEditor/SERichTextEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SERichTextEditor/SERichTextEditor.modulemap";
+				PRODUCT_MODULE_NAME = SERichTextEditor;
+				PRODUCT_NAME = SERichTextEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66751AB28DC0C99D86B86A81F6D99D4F /* Build configuration list for PBXNativeTarget "Pods-SERichTextEditor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B0F8CFB0BAB41CC9DBD40A633BA8DA /* Debug */,
+				9B84AE4641E1BCA6F2F951065E53C5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A243F56CB3838E139C257D77BD117B6 /* Build configuration list for PBXNativeTarget "Pods-SERichTextEditor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6940CB792F40EC0D9EE539F554A87EC1 /* Debug */,
+				16A18CACD9753FD94C4C1E471F80228B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB0666CEDB85BD8357D34F123FDBA1B /* Build configuration list for PBXNativeTarget "SERichTextEditor-SERichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1947FE209936640D22740AE8D8CCB458 /* Debug */,
+				C7EBF79E6B073A1EAA893CF0FAC859E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD300EF5C5B909AB4CD8626C27FCC551 /* Build configuration list for PBXNativeTarget "SERichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D71EF488E47EB47782E292363CBFD99 /* Debug */,
+				DF0519C84A749DFCA8C9AEB47DFDDBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
