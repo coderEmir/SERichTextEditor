@@ -20,10 +20,3 @@ it, simply add the following line to your Podfile:
 pod 'SERichTextEditor'
 ```
 
-## Author
-
-17629918, 864009759@qq.com
-
-## License
-
-SERichTextEditor is available under the MIT license. See the LICENSE file for more info.
