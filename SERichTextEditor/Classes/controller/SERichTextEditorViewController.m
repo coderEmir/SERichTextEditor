@@ -59,7 +59,7 @@ static NSInteger const ColorTag = 4050;
     NSArray *imageArr = @[@"undo", @"redo", @"font", @"changeFontSize", @"align", @"sort", @"foreColor"];
     [self addCustomToolbarItemImageNames:imageArr];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(finishEvent)];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(finishEvent)];
 }
 
 - (void)historyHTMLRecord:(NSString *)htmlText contentBlock:(nonnull ContentBlock)contentBlock
@@ -68,16 +68,21 @@ static NSInteger const ColorTag = 4050;
     [self setHTML:htmlText];
 }
 
-- (void)finishEvent
+- (void)rightItemEvent
 {
     __weak typeof(self)weakSelf = self;
-    [self getHTML:^(id _Nullable content, NSError * _Nullable error) {
-        weakSelf.contentBlock(content);
+    [self getHTML:^(id _Nullable htmlContent, NSError * _Nullable error) {
+        [weakSelf getText:^(id _Nullable content, NSError * _Nullable error) {
+            if (weakSelf.contentBlock)weakSelf.contentBlock(htmlContent,content);
+        }];
+        
     }];
+    
 }
 
 - (void)didTapCustomToolbarButton:(ZSSBarButtonItem *)item
 {
+    self.functionPopover = nil;
     if ([item.label containsString:@"font"])
     {
         [self resetFont:0 hadFont:[self.currentTextState containsString:@"bold"]];

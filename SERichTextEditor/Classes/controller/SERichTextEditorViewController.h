@@ -8,7 +8,7 @@
 
 #import "SEExport.h"
 
-typedef void(^ContentBlock)(NSString * _Nullable htmlContent);
+typedef void(^ContentBlock)(NSString * _Nullable htmlContent, NSString * _Nullable content);
 
 NS_ASSUME_NONNULL_BEGIN
 

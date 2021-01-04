@@ -277,8 +277,6 @@
   CGPoint arrowPoint = [self.containerView convertPoint:self.arrowShowPoint toView:self];
   switch (_option.popoverType) {
     case ASPopoverTypeUp: {
-//        arrowPoint = CGPointMake(arrowPoint.x - 10, arrowPoint.y);
-
       [arrow moveToPoint:CGPointMake(arrowPoint.x, selfHeight)];
       ArrowAddLineToPoint(arrowPoint.x - selfArrowWidth * 0.5, [self isCornerLeftArrow] ? selfArrowHeight : selfHeight - selfArrowHeight);
       ArrowAddLineToPoint(selfCornerRadius, selfHeight - selfArrowHeight);
@@ -297,29 +295,37 @@
       ArrowAddLineToPoint(arrowPoint.x, selfHeight);
     } break;
       
-    case ASPopoverTypeDown: {
-        
-      [arrow moveToPoint:CGPointMake(arrowPoint.x, 0)];
-      ArrowAddLineToPoint(arrowPoint.x + selfArrowWidth * 0.5, [self isCornerRightArrow] ? selfArrowHeight + selfHeight : selfArrowHeight);
-      ArrowAddLineToPoint(selfWidth - selfCornerRadius, selfArrowHeight);
-      [arrow addArcWithCenter:CGPointMake(selfWidth - selfCornerRadius, selfArrowHeight + selfCornerRadius) radius:selfCornerRadius startAngle:radians(270) endAngle:radians(0) clockwise:YES];
-      ArrowAddLineToPoint(selfWidth, selfHeight - selfCornerRadius);
-      [arrow addArcWithCenter:CGPointMake(selfWidth - selfCornerRadius, selfHeight - selfCornerRadius) radius:selfCornerRadius startAngle:radians(0) endAngle:radians(90) clockwise:YES];
-      ArrowAddLineToPoint(0, selfHeight);
-      [arrow addArcWithCenter:CGPointMake(selfCornerRadius, selfHeight - selfCornerRadius) radius:selfCornerRadius startAngle:radians(90) endAngle:radians(180) clockwise:YES];
-      ArrowAddLineToPoint(0, selfArrowHeight + selfCornerRadius);
-      [arrow addArcWithCenter:CGPointMake(selfCornerRadius, selfArrowHeight + selfCornerRadius) radius:selfCornerRadius startAngle:radians(180) endAngle:radians(270) clockwise:YES];
-      ArrowAddLineToPoint(arrowPoint.x - selfArrowWidth * 0.5, [self isCornerLeftArrow] ? selfArrowHeight + selfHeight : selfArrowHeight);
-      ArrowAddLineToPoint(arrowPoint.x, 0);
-    } break;
-  }
-    
+      case ASPopoverTypeDown: {
+        [arrow moveToPoint:CGPointMake(arrowPoint.x, 0)];
+        ArrowAddLineToPoint(arrowPoint.x + selfArrowWidth * 0.5, [self isCornerRightArrow] ? selfArrowHeight + selfHeight : selfArrowHeight);
+        ArrowAddLineToPoint(selfWidth - selfCornerRadius, selfArrowHeight);
+        [arrow addArcWithCenter:CGPointMake(selfWidth - selfCornerRadius, selfArrowHeight + selfCornerRadius) radius:selfCornerRadius startAngle:radians(270) endAngle:radians(0) clockwise:YES];
+        ArrowAddLineToPoint(selfWidth, selfHeight - selfCornerRadius);
+        [arrow addArcWithCenter:CGPointMake(selfWidth - selfCornerRadius, selfHeight - selfCornerRadius) radius:selfCornerRadius startAngle:radians(0) endAngle:radians(90) clockwise:YES];
+
+        [arrow addArcWithCenter:CGPointMake(selfCornerRadius, selfHeight - selfCornerRadius) radius:selfCornerRadius startAngle:radians(90) endAngle:radians(180) clockwise:YES];
+        ArrowAddLineToPoint(0, selfArrowHeight + selfCornerRadius);
+        [arrow addArcWithCenter:CGPointMake(selfCornerRadius, selfArrowHeight + selfCornerRadius) radius:selfCornerRadius startAngle:radians(180) endAngle:radians(270) clockwise:YES];
+        ArrowAddLineToPoint(arrowPoint.x - selfArrowWidth * 0.5, [self isCornerLeftArrow] ? selfArrowHeight + selfHeight : selfArrowHeight);
+      } break;
+    }
+
     [color setFill];
+    [arrow fill];
     
-    [[UIColor colorWithRed:216 / 255.0 green:212 / 255.0 blue:209 / 255.0 alpha:1] set];
-    [arrow setLineWidth:1.0];
-    [arrow stroke];
-    
+    CAShapeLayer *shaLayer = [CAShapeLayer layer];
+    shaLayer.fillColor = UIColor.whiteColor.CGColor;
+    // 加阴影
+    shaLayer.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.5].CGColor;
+    // 设置偏移量为0,四周都有阴影
+    shaLayer.shadowOffset = CGSizeZero;
+    // 透明度
+    shaLayer.shadowOpacity = 1.0f;
+    // 阴影宽度
+    shaLayer.shadowRadius = 2.f;
+    // 建立关联，并渲染路径
+    shaLayer.path = arrow.CGPath;
+    [self.layer insertSublayer:shaLayer atIndex:0];
 }
 
 //- (void)layoutSubviews {
